@@ -1,23 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Components/Navbar/Navbar'
+import Events from './Components/Events/Events'
+import Header from './Components/Header/Header'
+import Login from './Components/Login/Login'
+import Registration from './Components/Registration/Registration';
+import Sponsors from './Components/Sponsors/Sponsors';
+import Team from './Components/Core-team/Core-team';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Navbar/>
+        <Routes>
+        <Route path="/" element={<Header/>}></Route>
+        <Route path="/events" element={<Events/>}></Route>
+        <Route path="/sponsors" element={<Sponsors/>}></Route>
+        <Route path="/team" element={<Team/>}></Route>
+        <Route path="/registration" element={<Registration/>}></Route>
+        <Route path="/login" element={<Login/>}></Route>
+        </Routes>
+
+      </Router>
+
     </div>
   );
 }
