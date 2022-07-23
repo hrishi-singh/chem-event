@@ -19,7 +19,7 @@ function App() {
       <Router>
         <Navbar/>
         <Routes>
-        <Route path="/" element={<Header/>}></Route>
+        <Route path="/chem-event" element={<Header/>}></Route>
         <Route path="/events" element={<Events/>}></Route>
         <Route path="/sponsors" element={<Sponsors/>}></Route>
         <Route path="/team" element={<Team/>}></Route>
