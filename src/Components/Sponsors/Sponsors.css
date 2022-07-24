@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#sponsors-container{
+    background-color: #101010;
+    height: 91.5vh;
+    background-image: url('https://cdn.dribbble.com/users/410304/screenshots/1803137/chemical_animation.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sponsors-container h1{
+color: white;
+font-family: 'poppins' 'sans-serif';
+font-size: 3em;
+}
+
+.card-body{
+    padding: 0px;
+}

@@ -1,9 +1,9 @@
 import React from 'react'
-
+import './Sponsors.css'
 const Sponsors = () => {
   return (
-    <div>
-        <h1>Our Sponsors page is coming soon</h1>
+    <div id='sponsors-container'>
+        <h1>Coming soon.</h1>
     </div>
   )
 }
