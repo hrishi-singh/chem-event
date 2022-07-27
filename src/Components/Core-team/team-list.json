@@ -1,25 +1,95 @@
 {
+    "faculty":[
+        {
+            "img":"https://iitj.ac.in/dept_faculty_pic/sumitkamal.jpg",
+            "phone": "",
+            "Name": "Sumit Kamal",
+            "position":"Assistant Proffesor",
+            "bio":"Event Faculty Head"
+        },
+        {
+            "img":"https://iitj.ac.in/dept_faculty_pic/vikky.jpg",
+            "phone": "",
+            "Name": "Vikky Anand",
+            "position":"Assistant Proffesor",
+            "bio":"Event Faculty Head" 
+        },
+        {
+            "img":"https://iitj.ac.in/dept_faculty_pic/guptapk.jpg",
+            "phone": "",
+            "Name": "Prashant Kumar Gupta",
+            "position":"Assistant Proffesor",
+            "bio":"Event Faculty Head" 
+        }
+    ],
+
+
         "devlopers" : [
             {
-                "img":"",
+                "img":"https://avatars.githubusercontent.com/u/99041072?v=4",
                 "roll": "B20CH018",
                 "Name": "Hrishi Raj Singh",
-                "bio":"Frontend Web Developer"
+                "bio":"Frontend"
             },
 
             {
                 "img":"",
                 "roll": "B20CH042",
                 "Name": "Shreya Pagaria",
-                "bio":"Frontend Web Developer"
+                "bio":"Frontend"
+
+            },
+            {
+                "img":"",
+                "roll": "B20CH012",
+                "Name": "Bhavneet Kaur",
+                "bio":"Backend"
 
             },
             {
                 "img":"",
                 "roll": "B20CH024",
                 "Name": "Nimish Purohit",
-                "bio":"Backend Web Developer"
+                "bio":"Backend"
+
+            }
+        ],
+        
+        "College-Public-Relation":[
+            {
+                "img":"",
+                "roll": "B20CH0XX",
+                "Name": "Name",
+                "bio":"some role/bio"
+
+            }
+        ],
+        "Funding-Public-Relation":[
+            {
+                "img":"",
+                "roll": "B20CH0XX",
+                "Name": "Name",
+                "bio":"some role/bio"
+
+            }
+        ],
+        "Event-Management":[
+            {
+                "img":"",
+                "roll": "B20CH0XX",
+                "Name": "Name",
+                "bio":"some role/bio"
+
+            }
+        ],
+        "Logistics":[
+            {
+                "img":"",
+                "roll": "B20CH0XX",
+                "Name": "Name",
+                "bio":"some role/bio"
 
             }
         ]
+
 }
