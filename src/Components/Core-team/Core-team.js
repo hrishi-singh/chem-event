@@ -1,70 +1,58 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Tilt from 'react-parallax-tilt';
-// import Button from 'react-bootstrap/Button';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Card from 'react-bootstrap/Card';
-import teams_List from './team-list.json'
-import './Core-team.css'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import teams_List from './team-list.json';
+import './Core-team.css';
+
+
 
 // function for representing teams details as Flashcards
 function Flashcards(props) {
+    let dir = props.por;
+    let mapping = dir.map((det) => {
+        return (
+            <div className={`col-md-${(props.colm)}`} key={det.phone}>
+               
+                <CardGroup>
+                    <Tilt>
+                        <Card data-aos="flip-left" data-aos-delay="200">
+                            <Card.Img variant="top" height="220px" src={!(det).img ? "https://www.cumbria.ac.uk/media/staff-profile-images/staff_profile_-generic_350x350px.png" : det.img} />
+                            <Card.Body>
+                                <Card.Title>{det.Name}</Card.Title>
+                                <Card.Text>
+                                    <b>{det.position}</b><br />
+                                    {det.bio}
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Tilt>
+                </CardGroup>
+            </div>
+        )
+    })
     return (
-        <CardGroup>
-            <Tilt>
-                <Card>
-                    <Card.Img variant="top" height="220px" src={!(props.det).img ? "https://www.cumbria.ac.uk/media/staff-profile-images/staff_profile_-generic_350x350px.png" : props.det.img} />
-                    <Card.Body>
-                        <Card.Title> {props.det.Name}</Card.Title>
-                        <Card.Text>
-                            <h5>{props.det.position}
-                                </h5>
-                            {props.det.bio}
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
-            </Tilt>
-        </CardGroup>
+        <div className="row">
+            <h3 className="container my-3">{props.title}</h3>
+            {mapping}
+        </div>
     );
 }
 
 
-
+//code for rendering the core team page
 const Team = () => {
+    useEffect(() => {
+    Aos.init();
+    }, [])
+    
     return (
         <div className="container my-3">
-            <h1>
-                Our Team
-            </h1>
-
-            <h3 className="container my-3">Event Faculty Heads</h3>
-            <div className="row">
-                {
-                    teams_List.faculty.map((details) => {
-                        return (
-                            <div className="col-md-4" key={details.phone}>
-                                <Flashcards det={details} />
-                            </div>
-
-                        )
-                    })
-                }
-
-            </div>
-
-            <h3 className="container my-3">Web Developers</h3>
-            <div className="row">
-                {
-                    teams_List.devlopers.map((details) => {
-                        return (
-                            <div className="col-md-3" key={details.roll}>
-                                <Flashcards det={details} />
-                            </div>
-                        )
-                    })
-                }
-
-            </div>
-
+            <h1>Our Team</h1>
+            <Flashcards title={"Event Faculty Heads"} por={teams_List.faculty} colm={4} />
+            <Flashcards title={"Web Developers"} por={teams_List.devlopers} colm={3} />
         </div>
     )
 }

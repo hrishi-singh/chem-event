@@ -1,11 +1,10 @@
 import React from 'react'
+import Coming_soon from '../Coming_Soon/Coming_soon'
 console.log("hello events")
 const Events = () => {
   return (
     <div>
-        <h1>
-          Events
-        </h1>
+        <Coming_soon  title="Events"/>
     </div>
   )
 }

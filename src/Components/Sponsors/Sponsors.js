@@ -1,11 +1,11 @@
 import React from 'react'
+import Coming_soon from '../Coming_Soon/Coming_soon'
 import './Sponsors.css'
 const Sponsors = () => {
   return (
-    <div id='sponsors-container'>
-        <h1>Coming soon.</h1>
-    </div>
+    <>
+    <Coming_soon title="Sponsor"/>
+    </>
   )
 }
-
 export default Sponsors

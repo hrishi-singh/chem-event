@@ -11,6 +11,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Footer from './Components/Footer/Footer';
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
         <Route path="/registration" element={<Registration/>}></Route>
         <Route path="/login" element={<Login/>}></Route>
         </Routes>
-
+        <Footer/>
       </Router>
 
     </div>

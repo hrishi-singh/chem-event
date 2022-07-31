@@ -1,0 +1,32 @@
+{
+    "social_links":[{
+        "Name":"Facebook",
+        "logo":"https://icons.getbootstrap.com/assets/icons/facebook.svg",
+        "url":"https://www.facebook.com/ChemEngg.IITJ"
+
+    },{
+        "Name":"Twitter",
+        "logo":"https://icons.getbootstrap.com/assets/icons/twitter.svg",
+        "url":"https://twitter.com/chemengg_iitj"
+
+    },{
+        "Name":"Instagram",
+        "logo":"https://icons.getbootstrap.com/assets/icons/instagram.svg",
+        "url":"https://www.instagram.com/chemengg_iitjodhpur/"
+
+    },
+    {
+        "Name":"Linkedin",
+        "logo":"https://icons.getbootstrap.com/assets/icons/linkedin.svg",
+        "url":"https://www.linkedin.com/company/dept-chem-engg-iit-jodhpur/"
+    }
+],
+"Webites":[{
+    "Name":"IIT Jodhpur Oficial",
+    "url":"https://iitj.ac.in/"
+},
+{
+    "Name":"Chemical Engineering IITJ",
+    "url":"https://iitj.ac.in/department/index.php?id=chemical"
+}]
+}

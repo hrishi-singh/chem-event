@@ -2,21 +2,21 @@
     "faculty":[
         {
             "img":"https://iitj.ac.in/dept_faculty_pic/sumitkamal.jpg",
-            "phone": "",
+            "phone": "(91 291) 280 1715",
             "Name": "Sumit Kamal",
             "position":"Assistant Proffesor",
             "bio":"Event Faculty Head"
         },
         {
             "img":"https://iitj.ac.in/dept_faculty_pic/vikky.jpg",
-            "phone": "",
+            "phone": "(91 291) 280 1710",
             "Name": "Vikky Anand",
             "position":"Assistant Proffesor",
             "bio":"Event Faculty Head" 
         },
         {
             "img":"https://iitj.ac.in/dept_faculty_pic/guptapk.jpg",
-            "phone": "",
+            "phone": "(91 291) 280 1709",
             "Name": "Prashant Kumar Gupta",
             "position":"Assistant Proffesor",
             "bio":"Event Faculty Head" 
@@ -29,6 +29,7 @@
                 "img":"https://avatars.githubusercontent.com/u/99041072?v=4",
                 "roll": "B20CH018",
                 "Name": "Hrishi Raj Singh",
+                "phone": "6205587596",
                 "bio":"Frontend"
             },
 
@@ -36,6 +37,7 @@
                 "img":"",
                 "roll": "B20CH042",
                 "Name": "Shreya Pagaria",
+                "phone": "12993",
                 "bio":"Frontend"
 
             },
@@ -43,6 +45,7 @@
                 "img":"",
                 "roll": "B20CH012",
                 "Name": "Bhavneet Kaur",
+                "phone": "19923",
                 "bio":"Backend"
 
             },
@@ -50,6 +53,7 @@
                 "img":"",
                 "roll": "B20CH024",
                 "Name": "Nimish Purohit",
+                "phone": "188823",
                 "bio":"Backend"
 
             }
@@ -59,17 +63,18 @@
             {
                 "img":"",
                 "roll": "B20CH0XX",
-                "Name": "Name",
-                "bio":"some role/bio"
-
+                "Name": "abc",
+                "phone": "12993",
+                "bio":"work role"
             }
         ],
         "Funding-Public-Relation":[
             {
                 "img":"",
                 "roll": "B20CH0XX",
-                "Name": "Name",
-                "bio":"some role/bio"
+                "Name": "abc",
+                "phone": "12993",
+                "bio":"work role"
 
             }
         ],
@@ -77,17 +82,9 @@
             {
                 "img":"",
                 "roll": "B20CH0XX",
-                "Name": "Name",
-                "bio":"some role/bio"
-
-            }
-        ],
-        "Logistics":[
-            {
-                "img":"",
-                "roll": "B20CH0XX",
-                "Name": "Name",
-                "bio":"some role/bio"
+                "Name": "abc",
+                "phone": "12993",
+                "bio":"work role"
 
             }
         ]

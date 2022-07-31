@@ -1,0 +1,15 @@
+footer{
+    background-color: #274e5d;
+    padding: 0px;
+    margin: 0px;
+    max-width: 100vw;
+}
+.quick-links{
+    justify-content: space-between;
+}
+
+
+.quick-links ul li a{
+text-decoration: none;
+padding: 12px 0px;
+}
