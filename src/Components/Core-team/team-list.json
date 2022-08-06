@@ -30,61 +30,95 @@
                 "roll": "B20CH018",
                 "Name": "Hrishi Raj Singh",
                 "phone": "6205587596",
-                "bio":"Frontend"
+                "bio": "Head"
             },
-
+            
             {
-                "img":"",
-                "roll": "B20CH042",
+                "img":"https://drive.google.com/file/d/1AsbiXJxof5OQuCb4LuNsCwcNLmFNmJ6B/view?usp=sharing",
                 "Name": "Shreya Pagaria",
-                "phone": "12993",
-                "bio":"Frontend"
-
+                "phone": "9678859497",
+                "bio": "Head"
+                
             },
             {
-                "img":"",
-                "roll": "B20CH012",
-                "Name": "Bhavneet Kaur",
-                "phone": "19923",
-                "bio":"Backend"
-
-            },
-            {
-                "img":"",
-                "roll": "B20CH024",
-                "Name": "Nimish Purohit",
-                "phone": "188823",
-                "bio":"Backend"
+                "img":"https://drive.google.com/file/d/10yfHj4VEpxD20RLgRbqN6GMgtUsnCEFz/view?usp=sharing",
+                "Name": "Niranjan Jangir",
+                "phone": "9462459005",
+                "bio": "Assistant Head"
 
             }
         ],
         
-        "College-Public-Relation":[
+        "Public-Relation-College":[
             {
-                "img":"",
-                "roll": "B20CH0XX",
-                "Name": "abc",
-                "phone": "12993",
-                "bio":"work role"
+                "img":"https://drive.google.com/file/d/13fKSXGIaEqfExPJvtyFS8hnxODJ3Gi-q/view?usp=sharing",
+                "Name": "Goga Ram",
+                "phone": "7558622017",
+                "bio": "Head"
+            },
+            {
+                "img":"https://drive.google.com/file/d/11WkJS8_tZ4sOZPjLoWGyF4Sl9me-6vC4/view?usp=sharing",
+                "Name": "Ankush Gupta",
+                "phone": "8791221865",
+                "bio" : "Head"
+            },
+            {
+                "img":"https://drive.google.com/file/d/1gnrE3TP9SMmkxOiY4Ub1X_moyhuuOPE3/view?usp=sharing",
+                "Name": "Simran Soni",
+                "phone": "8307079188",
+                "bio": "Assistant Head"
             }
         ],
-        "Funding-Public-Relation":[
+        "Public-Relation-Funding":[
             {
-                "img":"",
-                "roll": "B20CH0XX",
-                "Name": "abc",
-                "phone": "12993",
-                "bio":"work role"
+                "img":"https://drive.google.com/file/d/1PYZuzoE3S4djqmsO4OxsY1LNQ0C1FTD9/view?usp=sharing",
+                "Name": "Nitin Prasad",
+                "phone": "8218392003",
+                "bio" : "Head"
+                
+            },
+            {
+                "img":"https://drive.google.com/file/d/1OxNLJ7E6bcto6X11ssguVJtyig26FFdU/view?usp=sharing",
+                "Name": "Shefali Gupta",
+                "phone": "9754047997",
+                "bio" : "Head"
+
+            },
+            {
+                "img":"https://drive.google.com/file/d/1PjZZG1vVXHHaYopmzqmJczmhbFi6nEsv/view?usp=sharing",
+                "Name": "Devang Dobliyal",
+                "phone": "8092053038",
+                "bio" : "Assistant Head"
 
             }
         ],
         "Event-Management":[
             {
+                "img":"https://drive.google.com/file/d/1PYZuzoE3S4djqmsO4OxsY1LNQ0C1FTD9/view?usp=sharing",
+                "Name": "Arun Sahu",
+                "phone": "7489813538",
+                "bio":"Head"
+
+            },
+            {
+                "img":"https://drive.google.com/file/d/14H9olhXYrVP0Xna-M5IXZ9OA9CPQI42i/view?usp=sharing",
+                "Name": "Chris Tomsy",
+                "phone": "7758821511",
+                "bio":"Head"
+
+            },
+            {
+                "img":"https://drive.google.com/file/d/1fDshW70sgoaRwwivBl1RPsziR4nDXuCW/view?usp=sharing",
+                "Name": "Suyash Surana",
+                "phone": "7898425068",
+                "bio":"Assistant Head"
+
+            },
+            {
                 "img":"",
-                "roll": "B20CH0XX",
-                "Name": "abc",
-                "phone": "12993",
-                "bio":"work role"
+                "Name": "Karan Thakur ",
+                "phone": "9205715603",
+                "bio":"Assistant Head"
 
             }
         ]
