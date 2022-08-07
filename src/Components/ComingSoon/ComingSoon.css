@@ -1,7 +1,4 @@
-*{
-    margin: 0;
-}
-#coming_soon_container{
+.comingsoon{
     background-color: #101010;
     height: 91.5vh;
     background-image: url('https://cdn.dribbble.com/users/410304/screenshots/1803137/chemical_animation.gif');
@@ -10,14 +7,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-#coming_soon_container h1{
-color: white;
-font-family: 'poppins' 'sans-serif';
-font-size: 3em;
-
-}
-
-.card-body{
-    padding: 0px;
+    color: white;
+    font-size: 1.3rem;
 }

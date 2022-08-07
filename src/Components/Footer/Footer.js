@@ -1,10 +1,10 @@
 import React from 'react'
 import './Footer.css'
 import college_Info from './college-info.json'
-import Sponsors_banner from '../Sponsors/Sponsors_banner'
+import SponsorsBanner from '../Sponsors/Sponsors_banner'
 const Footer = (props) => {
     return (
-        <>
+        <div>
 
                 <footer
                     className="text-center text-lg-start text-white">
@@ -69,11 +69,12 @@ const Footer = (props) => {
                         <hr className="mb-2" />
 
                         <section className="">
-                            <p className="d-flex justify-content-center align-items-center">
+                            <div className="d-flex justify-content-center align-items-center">
                                 <div>
-                                    <Sponsors_banner/>
+                                    <h4>Our Sponsors</h4>
+                                    <SponsorsBanner/>
                                 </div>
-                            </p>
+                            </div>
                         </section>
 
                         <hr className="mb-2" />
@@ -84,7 +85,7 @@ const Footer = (props) => {
                         © 2022 Copyright {props.Name}
                     </div>
                 </footer>
-            </>
+            </div>
     )
 }
 export default Footer

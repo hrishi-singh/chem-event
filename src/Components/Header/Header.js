@@ -81,7 +81,7 @@ import './Header.css'
                 number: {
                   density: {
                     enable: true,
-                    area: 800,
+                    area: 1800,
                   },
                   value: 80,
                 },
@@ -89,7 +89,7 @@ import './Header.css'
                   value: 0.5,
                 },
                 shape: {
-                  type: "circle",
+                  type:"circle"
                 },
                 size: {
                   value: { min: 1, max: 5 },

@@ -26,8 +26,7 @@
 
         "devlopers" : [
             {
-                "img":"https://avatars.githubusercontent.com/u/99041072?v=4",
-                "roll": "B20CH018",
+                "img":"https://drive.google.com/uc?export=view&id=1S35PULDUw1HhltOU9FN0EJQSPWUTY6BI",
                 "Name": "Hrishi Raj Singh",
                 "phone": "6205587596",
                 "bio":"Frontend"
@@ -35,7 +34,6 @@
 
             {
                 "img":"",
-                "roll": "B20CH042",
                 "Name": "Shreya Pagaria",
                 "phone": "12993",
                 "bio":"Frontend"
@@ -43,7 +41,6 @@
             },
             {
                 "img":"",
-                "roll": "B20CH012",
                 "Name": "Bhavneet Kaur",
                 "phone": "19923",
                 "bio":"Backend"
@@ -51,39 +48,200 @@
             },
             {
                 "img":"",
-                "roll": "B20CH024",
                 "Name": "Nimish Purohit",
                 "phone": "188823",
                 "bio":"Backend"
 
-            }
-        ],
-        
-        "College-Public-Relation":[
+            },
             {
                 "img":"",
-                "roll": "B20CH0XX",
-                "Name": "abc",
-                "phone": "12993",
-                "bio":"work role"
-            }
-        ],
-        "Funding-Public-Relation":[
+                "Name": "Niranjan Jangir",
+                "phone": "9462459005",
+                "bio":"Frontend"
+
+            },
             {
                 "img":"",
-                "roll": "B20CH0XX",
-                "Name": "abc",
-                "phone": "12993",
-                "bio":"work role"
+                "Name": "Anurag Singh",
+                "phone": "7223876243",
+                "bio":"Frontend"
+
+            },
+            {
+                "img":"",
+                "Name": "Harsh",
+                "phone": "7016910059",
+                "bio":"Frontend"
+
+            },
+            {
+                "img":"",
+                "Name": "Manju",
+                "phone": "188823",
+                "bio":"Flyer"
 
             }
         ],
-        "Event-Management":[
+        
+        "PublicRelationCollege":[
+            {
+                "img":"https://i.ibb.co/5T4wKW8/image.png",
+                "Name": "Goga Ram",
+                "phone": "7558622017"
+            },
+            {
+                "img":"https://i.ibb.co/fk4kqzy/image.png",
+                "Name": "Ankush Gupta",
+                "phone": "8791221865"
+            }
+        ],
+        "PublicRelationFunding":[
             {
                 "img":"",
-                "roll": "B20CH0XX",
-                "Name": "abc",
-                "phone": "12993",
+                "Name": "Nitin Prasad",
+                "phone": "8218392003"
+
+            },
+            {
+                "img":"",
+                "Name": "Mohit Gupta",
+                "phone": "7988955994"
+
+            },
+            {
+                "img":"",
+                "Name": "Devang Dobliyal",
+                "phone": "8092053038"
+
+            },
+            {
+                "img":"",
+                "Name": "Prashant Tandon",
+                "phone": "9840875794"
+
+            },
+            {
+                "img":"",
+                "Name": "Kartik",
+                "phone": "9811966139"
+
+            },
+            {
+                "img":"",
+                "Name": "Mohit",
+                "phone": "9468129644"
+
+            },
+            {
+                "img":"",
+                "Name": "Shefali Gupta",
+                "phone": "9754047997"
+
+            }
+        ],
+        "EventManagement":[
+            {
+                "img":"",
+                "Name": "Arun Sahu",
+                "phone": "7489813538",
+                "bio":"work role"
+
+            },
+            {
+                "img":"",
+                "Name": "Sarvesh Baheti",
+                "phone": "7976220032",
+                "bio":"work role"
+
+            },
+            {
+                "img":"",
+                "Name": "Amitesh Rana",
+                "phone": "9935968830",
+                "bio":"work role"
+
+            },
+            {
+                "img":"",
+                "Name": "Aradhya",
+                "phone": "9667638766",
+                "bio":"work role"
+
+            },
+            {
+                "img":"",
+                "Name": "Deepak Kumar",
+                "phone": "8789761269",
+                "bio":"work role"
+
+            },
+            {
+                "img":"",
+                "Name": "Dhyan",
+                "phone": "6354166651",
+                "bio":"work role"
+
+            },
+            {
+                "img":"",
+                "Name": "Kachhawa Goutham",
+                "phone": "9381796116",
+                "bio":"work role"
+
+            },
+            {
+                "img":"",
+                "Name": "Harsh Raj",
+                "phone": "8252104348",
+                "bio":"work role"
+
+            },
+            {
+                "img":"",
+                "Name": "Jahnavi Pandey",
+                "phone": "6306922794",
+                "bio":"work role"
+
+            },
+            {
+                "img":"",
+                "Name": "Manan Srivastava",
+                "phone": "7048216361",
+                "bio":"work role"
+
+            },
+            {
+                "img":"",
+                "Name": "Pravesh Garg",
+                "phone": "8875411199",
+                "bio":"work role"
+
+            },
+            {
+                "img":"",
+                "Name": "Prince Jain",
+                "phone": "9680787011",
+                "bio":"work role"
+
+            },
+            {
+                "img":"",
+                "Name": "Rohit Kamble",
+                "phone": "7387962079",
+                "bio":"work role"
+
+            },
+            {
+                "img":"",
+                "Name": "Sahil Bohra",
+                "phone": "6350525143",
+                "bio":"work role"
+
+            },
+            {
+                "img":"",
+                "Name": "Chris Tomsy",
+                "phone": "7758821511",
                 "bio":"work role"
 
             }

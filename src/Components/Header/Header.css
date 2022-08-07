@@ -1,9 +1,12 @@
-
+#welcome p,h4{
+    margin: 0px;
+}
 #thumbnail-img{
-height: 350px;
+height: 325px;
 width: auto;
 }
 #welcome{
+    margin: 0px;
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('./imgs/bg.jpg') ;
     background-size: cover;

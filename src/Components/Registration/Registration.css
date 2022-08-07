@@ -1,0 +1,141 @@
+/* .card{
+    flex-direction: column;
+} */
+
+.reg {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    width: 30vw;
+    padding: 2vw 1vw;
+    background-color: rgb(15, 8, 31);
+    border-radius: 0 0 5px 5px;
+    box-shadow: 2px 2px 2px 2px rgb(214, 203, 203);
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .reg-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .reg-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  .title{
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 30%;
+    background-color: rgb(15, 8, 31 );
+    padding: 2vw 1vw;
+    /* padding: 0px; */
+    border-radius: 5px 5px 0 0;
+    font-size: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgb(214, 203, 203);
+    
+  }
+  
+  
+  input{
+    border: 1px solid rgb(7, 0, 7);
+    border-radius: 3px;
+    padding: 0.25vw 0.25vw;
+    outline: none;
+    margin: 5px;
+  }
+  label{
+    padding: 0.17vw 0.17vw;
+    outline: none;
+    margin: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size: 0.85rem;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+  }
+  select{
+    border: 1px solid rgb(172, 171, 171);
+    border-radius: 3px;
+    /* padding: 0.17vw 0.17vw; */
+    outline: none;
+    margin: 5px;
+    /* text-align: left !important; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size: 0.85rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .dropdown{
+    
+    display: flex;
+    flex-direction: initial;
+    
+  }
+  .dropdown .acc{
+    display: flex;
+    flex-direction: initial;
+    padding-left: 31.32291499px;
+    
+  }
+  
+  .Pass{
+  display: flex;
+  flex-direction: initial;
+  }
+  
+.regbody{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('../Header/imgs/bg.jpg') ;
+    background-size: cover;
+    padding: 20px;
+
+}
+  
+  input[type=submit]{
+    width: 7vw;
+    padding: 0.6vw 0.6vw;
+    margin: auto;
+  }

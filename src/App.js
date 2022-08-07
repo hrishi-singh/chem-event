@@ -6,12 +6,12 @@ import Login from './Components/Login/Login'
 import Registration from './Components/Registration/Registration';
 import Sponsors from './Components/Sponsors/Sponsors';
 import Team from './Components/Core-team/Core-team';
+import Footer from './Components/Footer/Footer';
 import {
   BrowserRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
-import Footer from './Components/Footer/Footer';
 
 
 function App() {

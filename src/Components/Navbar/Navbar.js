@@ -20,7 +20,7 @@ function CollapsibleExample() {
             <Link className="nav-link" to="/events">Events</Link>
             <Link className="nav-link" to="/sponsors">Our Sponsors</Link>
             <Link className="nav-link" to="/team">Core Team</Link>
-            <Link className="nav-link" to="/contact-us">Contact Us</Link>
+            {/* <Link className="nav-link" to="/contactus">Contact Us</Link> */}
           </Nav>
           <Nav>
             <Link className="nav-link" to="/registration">Registration</Link>

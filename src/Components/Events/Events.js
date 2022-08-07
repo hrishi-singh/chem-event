@@ -1,10 +1,10 @@
 import React from 'react'
-import Coming_soon from '../Coming_Soon/Coming_soon'
+import ComingSoon from '../ComingSoon/ComingSoon'
 console.log("hello events")
 const Events = () => {
   return (
     <div>
-        <Coming_soon  title="Events"/>
+        <ComingSoon title="Events"/>
     </div>
   )
 }
