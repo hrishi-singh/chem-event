@@ -8,20 +8,28 @@
         "logo":"https://bsmedia.business-standard.com/_media/bs/img/article/2017-04/17/full/1492417296-865.jpg"
     },
     {
+        "Name":"Tide",
+        "logo":"https://bgr.com/wp-content/uploads/2018/10/tide-laundry-detergent-sign.gif"
+    },
+    {
         "Name":"ONGC",
         "logo":"https://www.sentinelassam.com/wp-content/uploads/2019/06/ongc.jpg"
     },
     {
         "Name":"Dettol",
         "logo":"https://gumlet.assettype.com/dtnext/import/Articles/2021/Jun/202106062124325954_Dettol-to-replace-logo-from-handwash-packs-with-Covid_SECVPF.gif?w=1200&h=675&auto=format%2Ccompress&fit=max"
-    }, 
-    {
-        "Name":"Dettol",
-        "logo":"https://gumlet.assettype.com/dtnext/import/Articles/2021/Jun/202106062124325954_Dettol-to-replace-logo-from-handwash-packs-with-Covid_SECVPF.gif?w=1200&h=675&auto=format%2Ccompress&fit=max"
     },
+     {
+        "Name":"Pidilite",
+        "logo":"https://www.pidilite.com/wp-content/uploads/2016/09/Pidilite-Building-Bonds.jpg"
+    }, 
     {
         "Name":"Unilever",
         "logo":"https://assets.turbologo.com/blog/en/2021/07/26072303/unilever.png"
+    },
+    {
+        "Name":"Asian Paints",
+        "logo":"https://www.abovestocks.com/wp-content/uploads/2020/10/Asian-Paints-Logo.jpg"
     }
 ]
 
