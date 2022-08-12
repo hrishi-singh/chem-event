@@ -12,10 +12,10 @@ const Team = () => {
         <div className="container my-3 teamcontainer">
             <h1>Our Team</h1>
             <Cards title={"Event Faculty Heads"} por={teams_List.faculty} colm={4} className={'teamcard my-3'}/>
-            <Cards title={"Web Developers & Flyers Team"} por={teams_List.devlopers} colm={3} className={'teamcard my-3'}/>
-            <Cards title={"Public Relation College Team"} por={teams_List.PublicRelationCollege} colm={6} className={'teamcard my-3'}/>
-            <Cards title={"Public Relation Funding Team"} por={teams_List.PublicRelationFunding} colm={3} className={'teamcard my-3'}/>
-            <Cards title={"Event Management Team"} por={teams_List.EventManagement} colm={4} className={'teamcard my-3'}/>
+            <Cards title={"Web Developers"} por={teams_List.devlopers} colm={4} className={'teamcard my-3'}/>
+            <Cards title={"Public Relation College Team"} por={teams_List.PublicRelationCollege} colm={4} className={'teamcard my-3'}/>
+            <Cards title={"Public Relation Funding Team"} por={teams_List.PublicRelationFunding} colm={4} className={'teamcard my-3'}/>
+            <Cards title={"Event Management Team"} por={teams_List.EventManagement} colm={3} className={'teamcard my-3'}/>
         </div>
     )
 }

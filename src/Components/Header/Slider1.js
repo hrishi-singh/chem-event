@@ -1,28 +1,22 @@
 import React from 'react'
-import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import thumbnail from "./imgs/thumbnail.png";
-import { Link } from 'react-router-dom'
-import './Header.css'
+import Particles from "react-tsparticles";
+import { Link } from 'react-router-dom';
 
- const Header = () => {
-  const particlesInit = async (main) => {
-    console.log(main);
-
-  await loadFull(main);
-  };
-
-  const particlesLoaded = (container) => {
-    console.log(container);
-  };
-
+const Slider1= () => {
+    const particlesInit = async (main) => {
+        console.log(main);
+    
+      await loadFull(main);
+      };
+    
+      const particlesLoaded = (container) => {
+        console.log(container);
+      };
   return (
-    // code for Header Welcome Text
-    <div>
-      <section id='welcome'>
-      <div id='particles-js'>
-      {/* <img src='https://i.ibb.co/55FFGnW/8cca6a97228621-5fd99b2882636.png' alt="" id='thumbnail-img'/> */}
-      <img src={thumbnail} alt="" id='thumbnail-img'/>
+    <div className='welcome'>
+      <div id='particles-js' className='container'>
+      <img src='https://mir-s3-cdn-cf.behance.net/project_modules/fs/8cca6a97228621.5fd99b2882636.png' alt="" className='thumbnail-img1'/>
        <span>
         <h4>Department of Chemical Engineering</h4>
       
@@ -62,7 +56,7 @@ import './Header.css'
                   color: "#ffffff",
                   distance: 100,
                   enable: true,
-                  opacity: 0.005,
+                  opacity: 0.05,
                   width: 1,
                 },
                 collisions: {
@@ -75,7 +69,7 @@ import './Header.css'
                     default: "bounce",
                   },
                   random: false,
-                  speed: 1%3,
+                  speed: 2%3,
                   straight: false,
                   
                 },
@@ -105,13 +99,8 @@ import './Header.css'
         
         <Link id='Register-btn' to='/registration'>Register Now</Link>
         </div>        
-      </section>
-
-
-        {/* Code for Linked Particles Effect */}
-
     </div>
   )
 }
 console.log(Particles.speed);
-export default Header
+export default Slider1

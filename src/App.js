@@ -1,7 +1,8 @@
 import './App.css';
 import Navbar from './Components/Navbar/Navbar'
 import Events from './Components/Events/Events'
-import Header from './Components/Header/Header'
+// import Header from './Components/Header/Header'
+import Header from './Components/Header/HeaderVer1'
 import Login from './Components/Login/Login'
 import Registration from './Components/Registration/Registration';
 import Sponsors from './Components/Sponsors/Sponsors';

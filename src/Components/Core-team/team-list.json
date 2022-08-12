@@ -1,21 +1,21 @@
 {
     "faculty":[
         {
-            "img":"https://iitj.ac.in/dept_faculty_pic/sumitkamal.jpg",
+            "img":"https://i.ibb.co/Qkpg3br/sumitkamal.jpg",
             "phone": "(91 291) 280 1715",
             "Name": "Sumit Kamal",
             "position":"Assistant Proffesor",
             "bio":"Event Faculty Head"
         },
         {
-            "img":"https://iitj.ac.in/dept_faculty_pic/vikky.jpg",
+            "img":"https://i.ibb.co/rMkr2pn/vikky.jpg",
             "phone": "(91 291) 280 1710",
             "Name": "Vikky Anand",
             "position":"Assistant Proffesor",
             "bio":"Event Faculty Head" 
         },
         {
-            "img":"https://iitj.ac.in/dept_faculty_pic/guptapk.jpg",
+            "img":"https://i.ibb.co/kXXfsFc/guptapk.jpg",
             "phone": "(91 291) 280 1709",
             "Name": "Prashant Kumar Gupta",
             "position":"Assistant Proffesor",
@@ -26,305 +26,99 @@
 
         "devlopers" : [
             {
-                "img":"https://drive.google.com/uc?export=view&id=1S35PULDUw1HhltOU9FN0EJQSPWUTY6BI",
+                "img":"https://i.ibb.co/R9BJF9m/uc-export-view-id-1-S35-PULDUw1-Hhlt-OU9-FN0-EJQSPWUTY6-BI.jpg",
+                "roll": "B20CH018",
                 "Name": "Hrishi Raj Singh",
                 "phone": "6205587596",
                 "bio": "Head"
             },
             
             {
-<<<<<<< HEAD
-                "img":"",
-=======
-                "img":"https://drive.google.com/file/d/1AsbiXJxof5OQuCb4LuNsCwcNLmFNmJ6B/view?usp=sharing",
->>>>>>> d8363c9062923c0cf2a8fcff6ff0ebb76edf9106
+                "img":"https://i.ibb.co/kMhMj71/uc-export-view-id-1-Asbi-XJxof5-OQu-Cb4-Lu-Ns-Cwc-NLm-FNm-J6-B.jpg",
                 "Name": "Shreya Pagaria",
                 "phone": "9678859497",
                 "bio": "Head"
                 
             },
             {
-<<<<<<< HEAD
-                "img":"",
-                "Name": "Bhavneet Kaur",
-                "phone": "19923",
-                "bio":"Backend"
-
-            },
-            {
-                "img":"",
-                "Name": "Nimish Purohit",
-                "phone": "188823",
-                "bio":"Backend"
-
-            },
-            {
-                "img":"",
-                "Name": "Niranjan Jangir",
-                "phone": "9462459005",
-                "bio":"Frontend"
-
-            },
-            {
-                "img":"",
-                "Name": "Anurag Singh",
-                "phone": "7223876243",
-                "bio":"Frontend"
-
-            },
-            {
-                "img":"",
-                "Name": "Harsh",
-                "phone": "7016910059",
-                "bio":"Frontend"
-
-            },
-            {
-                "img":"",
-                "Name": "Manju",
-                "phone": "188823",
-                "bio":"Flyer"
-=======
-                "img":"https://drive.google.com/file/d/10yfHj4VEpxD20RLgRbqN6GMgtUsnCEFz/view?usp=sharing",
+                "img":"https://i.ibb.co/tqVq1Py/uc-export-view-id-10yf-Hj4-VEpx-D20-RLg-Rbq-N6-GMgt-Usn-CEFz.jpg",
                 "Name": "Niranjan Jangir",
                 "phone": "9462459005",
                 "bio": "Assistant Head"
-
-            }
-        ],
-        
-        "Public-Relation-College":[
-            {
-                "img":"https://drive.google.com/file/d/13fKSXGIaEqfExPJvtyFS8hnxODJ3Gi-q/view?usp=sharing",
-                "Name": "Goga Ram",
-                "phone": "7558622017",
-                "bio": "Head"
-            },
-            {
-                "img":"https://drive.google.com/file/d/11WkJS8_tZ4sOZPjLoWGyF4Sl9me-6vC4/view?usp=sharing",
-                "Name": "Ankush Gupta",
-                "phone": "8791221865",
-                "bio" : "Head"
-            },
-            {
-                "img":"https://drive.google.com/file/d/1gnrE3TP9SMmkxOiY4Ub1X_moyhuuOPE3/view?usp=sharing",
-                "Name": "Simran Soni",
-                "phone": "8307079188",
-                "bio": "Assistant Head"
-            }
-        ],
-        "Public-Relation-Funding":[
-            {
-                "img":"https://drive.google.com/file/d/1PYZuzoE3S4djqmsO4OxsY1LNQ0C1FTD9/view?usp=sharing",
-                "Name": "Nitin Prasad",
-                "phone": "8218392003",
-                "bio" : "Head"
-                
-            },
-            {
-                "img":"https://drive.google.com/file/d/1OxNLJ7E6bcto6X11ssguVJtyig26FFdU/view?usp=sharing",
-                "Name": "Shefali Gupta",
-                "phone": "9754047997",
-                "bio" : "Head"
-
-            },
-            {
-                "img":"https://drive.google.com/file/d/1PjZZG1vVXHHaYopmzqmJczmhbFi6nEsv/view?usp=sharing",
-                "Name": "Devang Dobliyal",
-                "phone": "8092053038",
-                "bio" : "Assistant Head"
->>>>>>> d8363c9062923c0cf2a8fcff6ff0ebb76edf9106
 
             }
         ],
         
         "PublicRelationCollege":[
             {
-                "img":"https://i.ibb.co/5T4wKW8/image.png",
+                "img":"https://i.ibb.co/m4PPWGQ/image.png",
                 "Name": "Goga Ram",
-                "phone": "7558622017"
+                "phone": "7558622017",
+                "bio": "Head"
             },
             {
-                "img":"https://i.ibb.co/fk4kqzy/image.png",
+                "img":"https://i.ibb.co/x6kfQY3/image.png",
                 "Name": "Ankush Gupta",
-                "phone": "8791221865"
+                "phone": "8791221865",
+                "bio" : "Head"
+            },
+            {
+                "img":"https://i.ibb.co/rs7Km7c/uc-export-view-id-1gnr-E3-TP9-SMmkx-Oi-Y4-Ub1-X-moyhuu-OPE3.jpg",
+                "Name": "Simran Soni",
+                "phone": "8307079188",
+                "bio": "Assistant Head"
             }
         ],
         "PublicRelationFunding":[
             {
-                "img":"https://drive.google.com/file/d/1PYZuzoE3S4djqmsO4OxsY1LNQ0C1FTD9/view?usp=sharing",
+                "img":"https://i.ibb.co/jWvNpqC/uc-export-view-id-1-PYZuzo-E3-S4djqms-O4-Oxs-Y1-LNQ0-C1-FTD9.jpg",
+                "Name": "Nitin Prasad",
+                "phone": "8218392003",
+                "bio" : "Head"
+                
+            },
+            {
+                "img":"https://i.ibb.co/cL0B5VY/uc-export-view-id-1-Ox-NLJ7-E6bcto6-X11ssgu-VJtyig26-FFd-U.jpg",
+                "Name": "Shefali Gupta",
+                "phone": "9754047997",
+                "bio" : "Head"
+
+            },
+            {
+                "img":"https://i.ibb.co/7NTszYM/uc-export-view-id-1-Pj-ZZG1v-VXHHa-Yopmzqm-Jczmhb-Fi6n-Esv.jpg",
+                "Name": "Devang Dobliyal",
+                "phone": "8092053038",
+                "bio" : "Assistant Head"
+
+            }
+        ],
+        "EventManagement":[
+            {
+                "img":"https://i.ibb.co/MCH4d38/Capture.png",
                 "Name": "Arun Sahu",
                 "phone": "7489813538",
                 "bio":"Head"
 
             },
             {
-                "img":"https://drive.google.com/file/d/14H9olhXYrVP0Xna-M5IXZ9OA9CPQI42i/view?usp=sharing",
+                "img":"https://i.ibb.co/Cn4L02q/uc-export-view-id-14-H9olh-XYr-VP0-Xna-M5-IXZ9-OA9-CPQI42i.jpg",
                 "Name": "Chris Tomsy",
                 "phone": "7758821511",
                 "bio":"Head"
 
             },
             {
-                "img":"https://drive.google.com/file/d/1fDshW70sgoaRwwivBl1RPsziR4nDXuCW/view?usp=sharing",
+                "img":"https://i.ibb.co/K2Szb09/uc-export-view-id-1f-Dsh-W70sgoa-Rwwiv-Bl1-RPszi-R4n-DXu-CW.jpg",
                 "Name": "Suyash Surana",
                 "phone": "7898425068",
                 "bio":"Assistant Head"
 
             },
             {
-                "img":"",
-<<<<<<< HEAD
-                "Name": "Nitin Prasad",
-                "phone": "8218392003"
-
-            },
-            {
-                "img":"",
-                "Name": "Mohit Gupta",
-                "phone": "7988955994"
-
-            },
-            {
-                "img":"",
-                "Name": "Devang Dobliyal",
-                "phone": "8092053038"
-
-            },
-            {
-                "img":"",
-                "Name": "Prashant Tandon",
-                "phone": "9840875794"
-
-            },
-            {
-                "img":"",
-                "Name": "Kartik",
-                "phone": "9811966139"
-
-            },
-            {
-                "img":"",
-                "Name": "Mohit",
-                "phone": "9468129644"
-
-            },
-            {
-                "img":"",
-                "Name": "Shefali Gupta",
-                "phone": "9754047997"
-
-            }
-        ],
-        "EventManagement":[
-            {
-                "img":"",
-                "Name": "Arun Sahu",
-                "phone": "7489813538",
-                "bio":"work role"
-
-            },
-            {
-                "img":"",
-                "Name": "Sarvesh Baheti",
-                "phone": "7976220032",
-                "bio":"work role"
-
-            },
-            {
-                "img":"",
-                "Name": "Amitesh Rana",
-                "phone": "9935968830",
-                "bio":"work role"
-
-            },
-            {
-                "img":"",
-                "Name": "Aradhya",
-                "phone": "9667638766",
-                "bio":"work role"
-
-            },
-            {
-                "img":"",
-                "Name": "Deepak Kumar",
-                "phone": "8789761269",
-                "bio":"work role"
-
-            },
-            {
-                "img":"",
-                "Name": "Dhyan",
-                "phone": "6354166651",
-                "bio":"work role"
-
-            },
-            {
-                "img":"",
-                "Name": "Kachhawa Goutham",
-                "phone": "9381796116",
-                "bio":"work role"
-
-            },
-            {
-                "img":"",
-                "Name": "Harsh Raj",
-                "phone": "8252104348",
-                "bio":"work role"
-
-            },
-            {
-                "img":"",
-                "Name": "Jahnavi Pandey",
-                "phone": "6306922794",
-                "bio":"work role"
-
-            },
-            {
-                "img":"",
-                "Name": "Manan Srivastava",
-                "phone": "7048216361",
-                "bio":"work role"
-
-            },
-            {
-                "img":"",
-                "Name": "Pravesh Garg",
-                "phone": "8875411199",
-                "bio":"work role"
-
-            },
-            {
-                "img":"",
-                "Name": "Prince Jain",
-                "phone": "9680787011",
-                "bio":"work role"
-
-            },
-            {
-                "img":"",
-                "Name": "Rohit Kamble",
-                "phone": "7387962079",
-                "bio":"work role"
-
-            },
-            {
-                "img":"",
-                "Name": "Sahil Bohra",
-                "phone": "6350525143",
-                "bio":"work role"
-
-            },
-            {
-                "img":"",
-                "Name": "Chris Tomsy",
-                "phone": "7758821511",
-                "bio":"work role"
-=======
+                "img":"https://i.ibb.co/5v04jJq/uc-export-view-id-1d-MLH3-FLPG019-Gtu-NL2so-JLKo0hv1pcz-L.jpg",
                 "Name": "Karan Thakur ",
                 "phone": "9205715603",
                 "bio":"Assistant Head"
->>>>>>> d8363c9062923c0cf2a8fcff6ff0ebb76edf9106
 
             }
         ]
