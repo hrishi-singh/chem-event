@@ -1,11 +1,32 @@
-import React from 'react'
+import React, {useState} from 'react'
+import {useNavigate} from "react-router-dom"
 import './Navbar.css'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import { useAuth } from "../contexts/AuthContext";
 
 function CollapsibleExample() {
+  const currentUser = useAuth();
+  const [error, setError] = useState("")
+  const {  logout } = useAuth()  
+  const history = useNavigate()  
+   
+
+  async function handleClick(){
+    
+    setError("")
+    
+    try {
+        await logout()
+        history("/team")
+    } catch {
+        alert("cannot")
+        setError("Failed to log out")
+    }
+  }
+
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
       <Container>
@@ -24,8 +45,26 @@ function CollapsibleExample() {
             {/* <Link className="nav-link" to="/contactus">Contact Us</Link> */}
           </Nav>
           <Nav>
+
+            {currentUser.currentUser==null &&
             <Link className="nav-link" to="/registration">Registration</Link>
+            }
+
+            {currentUser.currentUser==null &&
             <Link className="nav-link" to="/login">Login</Link>
+            }
+
+
+            {currentUser.currentUser!=null &&
+            <button className="nav-link" onClick={handleClick}>Logout</button>
+            
+            }
+
+            {currentUser.currentUser!=null &&
+            
+            <Link className="nav-link" to="/profile">Profile</Link>
+            }
+            
           </Nav>
         </Navbar.Collapse>
             <Navbar.Brand id='college-logo'  className='nav-logo'>
