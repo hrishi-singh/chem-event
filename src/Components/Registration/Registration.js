@@ -3,7 +3,19 @@
 // import Form from 'react-bootstrap/Form';
 import './Registration.css'
 import '../Core-team/Core-team.css'
+
 // import axios from 'axios';
+import React, { useRef, useState } from "react"
+import { Form, Button, Card, Alert } from "react-bootstrap"
+import { useAuth } from "../contexts/AuthContext"
+import { Link, useNavigate} from "react-router-dom"
+import {ref,push,child,update} from "firebase/database";
+import { getDatabase, set } from "firebase/database";
+
+
+import {useForm} from "react-hook-form";
+import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
 
 
 // function Registration() {
@@ -59,10 +71,7 @@ import '../Core-team/Core-team.css'
 // export default Registration
 
 
-import React from "react";
-import {useForm} from "react-hook-form";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
+
 
 
 
@@ -77,34 +86,92 @@ function  Registration(){
   const particlesLoaded = (container) => {
     console.log(container);
   };
+
+
+  const emailRef = useRef()
+  const passwordRef = useRef()
+  const passwordConfirmRef = useRef()
+  const nameRef = useRef()
+  const {signup}  = useAuth()
+  
+  const [error, setError] = useState("")
+  const [loading, setLoading] = useState(false)
+  const history = useNavigate()
+  const  {currentUser}  = useAuth()
+
+
+
+  
+  async function handleSubmit(e) {
+    e.preventDefault()
+    
+    //alert(e.target.value)
+    /*
+    if (passwordRef.current.value !== passwordConfirmRef.current.value) {
+      return setError("Passwords do not match")
+    }
+    else {
+      alert("success")
+    }*/
+    
+    try {
+      
+      setError("")
+      setLoading(true)
+      
+      const val = await signup(e.target[4].value, e.target[5].value)
+      //await login(emailRef.current.value, passwordRef.current.value)
+      alert("hi")
+      const db = getDatabase();
+      set(ref(db, 'users/' + val.user.uid), {
+        username: e.target[0].value,
+        institute_name: e.target[1].value,
+        gender: e.target[2].value,
+        accomodation: e.target[3].value,
+        email: e.target[4].value ,
+        phone: e.target[7].value
+      })
+
+    history("/")
+
+    } 
+    catch(error) {
+
+      alert(error)
+      setError("Failed to create an account")
+    }
+
+    setLoading(false)
+  }
+
   return (
     <div className='regbody'>
     <p className="title">Registration</p>
 
-    <form className="reg">
-      <input type="text" placeholder="Full Name" required {...register("name")}/>
+    <form className="reg" onSubmit={handleSubmit}>
+      <input type="text" placeholder="Full Name" required {...register("name")} ref={nameRef}/>
       <input type="text" placeholder="Institute Name"{...register("Institute Name")}/>
       <div className="dropdown">
-      <label for="Gender">Gender:     
+      <label htmlFor="Gender">Gender:     
       <select id="Gender" name="Gender" {...register("Gender",{required: true})} >
         <option value="Male">Male</option>
         <option value="Female">Female</option>
         <option value="Other">Prefer not to say</option>
       </select></label>
     <div className="acc">
-      <label for="Accomodation">Accomodation: 
+      <label htmlFor="Accomodation">Accomodation: 
       <select id="Accomodation" name="Accomodation" {...register("Accomodation",{required: true})}>
         <option value="Yes">Yes</option>
         <option value="No">No</option>
       </select></label></div></div>
 
 
-      <input type="email" placeholder="Email"{...register("email",{required: true})}/>
+      <input type="email" ref={emailRef} placeholder="Email"{...register("email",{required: true})}/>
       {errors.email && <span style={{color:"red"}}>Email is mandatory</span>}
       
       <div className="Pass">
-        <input type="password" placeholder="Password" {...register("password",{required: true})}/>
-     <div className="confirm"> <input type="password" placeholder="Confirm Password" required/>
+        <input type="password" placeholder="Password" ref={passwordRef} {...register("password",{required: true})}/>
+     <div className="confirm"> <input type="password" ref={passwordConfirmRef} placeholder="Confirm Password" required/>
      </div></div>
       <input type="tel" placeholder="Phone number" {...register("mobile number", {required: true})}/>
 
