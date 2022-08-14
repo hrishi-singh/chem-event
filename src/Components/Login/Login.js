@@ -38,7 +38,7 @@ function Login () {
       const val = await login(e.target[0].value, e.target[1].value)
       //await login(emailRef.current.value, passwordRef.current.value)
 
-      history("/team")
+      history("/chem-event")
 
     } 
     catch(error) {

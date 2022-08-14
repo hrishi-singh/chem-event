@@ -20,7 +20,7 @@ function CollapsibleExample() {
     
     try {
         await logout()
-        history("/team")
+        history("/chem-event")
     } catch {
         alert("cannot")
         setError("Failed to log out")

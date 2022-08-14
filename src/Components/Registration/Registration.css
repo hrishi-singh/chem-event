@@ -1,4 +1,4 @@
-.reg {
+.reg, .reg-ar{
     text-align: center;
     display: inline-block;
     flex-direction: column;
@@ -23,18 +23,18 @@
     color: #61dafb;
   }
   
-  @keyframes App-logo-spin {
+  /* @keyframes App-logo-spin {
     from {
       transform: rotate(0deg);
     }
     to {
       transform: rotate(360deg);
     }
-  }
+  } */
   
   
   .title{
-    display: flex;
+    display: inline-block;
     align-items: center;
     justify-content: center;
     background-color: rgb(15, 8, 31 );
@@ -47,7 +47,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: white;
-    box-shadow: 2px 2px 2px 2px rgb(214, 203, 203);
+    /* box-shadow: 2px 2px 2px 2px rgb(214, 203, 203); */
     
   }
   
@@ -56,7 +56,8 @@
     border: 1px solid rgb(7, 0, 7);
     border-radius: 3px;
     padding: 2px;
-    margin: 2px 0px;
+    outline: none;
+    margin: 2px;
   }
   label{
     padding: 0.17vw 0.17vw;
@@ -83,21 +84,22 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  .full{
+  
+  /* .dropdown{
+    
     display: flex;
-    align-content: stretch;
-    flex-direction: column;
-    margin: 0px 5px;
-  }
+    flex-direction: initial;
+    
+  } */
+  /* .dropdown .acc{
+    display: flex;
+    flex-direction: initial;    
+  } */
   
   .pwd{
-    margin: 0px 5px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-  }
-  .pwd input{
-    display: block;
   }
   .regform{
     display: inline-block;
