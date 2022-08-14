@@ -7,11 +7,11 @@ width: auto;
 } */
 .thumbnail-img1{
 margin-top: 70px;
-    height: 180px;
+height: 180px;
 width: auto;
 }
 
-.welcome, .hod-slide{
+.welcome, .faculty-slide{
     margin: 0px;
     height: 100vh;
     /* background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('./imgs/bg.jpg') ; */
@@ -49,8 +49,21 @@ width: auto;
     background-color: #355764;
     color: whitesmoke;
 }
-#hod-img{
-    height: 360px;
-    width: 360px;
+.faculty-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 300px;
+    width: 300px; */
+    z-index: 1;
+}
+.faculty-img img{
+    margin: 8px;
+    /* height: 150px;
+    width: 150px; */
     border-radius: 50%;
+}
+#dir{
+    height: 120px;
+    width: 120px;
 }
