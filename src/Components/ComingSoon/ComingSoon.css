@@ -1,0 +1,12 @@
+.comingsoon{
+    background-color: #101010;
+    height: 91.5vh;
+    background-image: url('https://cdn.dribbble.com/users/410304/screenshots/1803137/chemical_animation.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.3rem;
+}

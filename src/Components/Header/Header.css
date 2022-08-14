@@ -1,31 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rancho&family=Ubuntu:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-*{
+#welcome p,h4{
     margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
 }
-
-#thumbnail-img{
-padding-top: 72px;
-height: 60vh;
+/* #thumbnail-img{
+height: 325px;
+width: auto;
+} */
+.thumbnail-img1{
+margin-top: 70px;
+    height: 180px;
 width: auto;
 }
 
-#particles-js{
-    padding: 20px;
-    width:100%;
+.welcome, .hod-slide{
+    margin: 0px;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('./imgs/bg.jpg') ;
+    /* background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('./imgs/bg.jpg') ; */
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('https://i.ytimg.com/vi/kWHcMeE4C5M/maxresdefault.jpg') ;
     background-size: cover;
+}
+#particles-js{
+    width:100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     color: white;
     font-size: 2.5em;
-    z-index: 100;
-    overflow: hidden;
 }
 #particles-js span{
     font-size: 1.5rem;
@@ -45,11 +45,12 @@ width: auto;
     text-decoration: none;
 
 }
-.box{
-    padding-bottom: 10%;
-}
-
 #Register-btn:hover{
     background-color: #355764;
     color: whitesmoke;
+}
+#hod-img{
+    height: 360px;
+    width: 360px;
+    border-radius: 50%;
 }

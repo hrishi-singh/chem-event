@@ -1,6 +1,55 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.event-header{
+    height: 800px;
+    display:flex;
+
+    background-image: url("./banner_temp.png");
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
+
+/* .box {
+    background-color: rgba(0, 0, 0, 0.137);
+    position: relative;
+    width: 350px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+
+} */
+/* 
+.box::before {
+    z-index: -3;
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 100%;
+    background: linear-gradient(white, SILVER,pink,magenta);
+    animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.box::after {
+    z-index: -2;
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background: radial-gradient( pink,rgb(238, 97, 243));
+}
+.box h1{
+    z-index:1;
+} */

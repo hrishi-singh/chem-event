@@ -1,70 +1,22 @@
 import React from 'react'
-import Tilt from 'react-parallax-tilt';
-// import Button from 'react-bootstrap/Button';
-import CardGroup from 'react-bootstrap/CardGroup';
-import Card from 'react-bootstrap/Card';
-import teams_List from './team-list.json'
-import './Core-team.css'
+// import Aos from 'aos';
+import 'aos/dist/aos.css';
+import teams_List from './team-list.json';
+import './Core-team.css';
+import Cards from '../Cards';
+import { useAuth } from "../contexts/AuthContext";
 
-// function for representing teams details as Flashcards
-function Flashcards(props) {
-    return (
-        <CardGroup>
-            <Tilt>
-                <Card>
-                    <Card.Img variant="top" height="220px" src={!(props.det).img ? "https://www.cumbria.ac.uk/media/staff-profile-images/staff_profile_-generic_350x350px.png" : props.det.img} />
-                    <Card.Body>
-                        <Card.Title> {props.det.Name}</Card.Title>
-                        <Card.Text>
-                            <h5>{props.det.position}
-                                </h5>
-                            {props.det.bio}
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
-            </Tilt>
-        </CardGroup>
-    );
-}
-
-
-
+//code for rendering the core team page
 const Team = () => {
+    const currentUser = useAuth();
     return (
-        <div className="container my-3">
-            <h1>
-                Our Team
-            </h1>
-
-            <h3 className="container my-3">Event Faculty Heads</h3>
-            <div className="row">
-                {
-                    teams_List.faculty.map((details) => {
-                        return (
-                            <div className="col-md-4" key={details.phone}>
-                                <Flashcards det={details} />
-                            </div>
-
-                        )
-                    })
-                }
-
-            </div>
-
-            <h3 className="container my-3">Web Developers</h3>
-            <div className="row">
-                {
-                    teams_List.devlopers.map((details) => {
-                        return (
-                            <div className="col-md-3" key={details.roll}>
-                                <Flashcards det={details} />
-                            </div>
-                        )
-                    })
-                }
-
-            </div>
-
+        <div className="container my-3 teamcontainer">
+            <h1>Our Team {currentUser.currentUser===null? 'ABC' : alert(JSON.stringify(currentUser))}</h1>
+            <Cards title={"Event Faculty Heads"} por={teams_List.faculty} colm={4} className={'teamcard my-3'}/>
+            <Cards title={"Web Developers"} por={teams_List.devlopers} colm={4} className={'teamcard my-3'}/>
+            <Cards title={"Public Relation College Team"} por={teams_List.PublicRelationCollege} colm={4} className={'teamcard my-3'}/>
+            <Cards title={"Public Relation Funding Team"} por={teams_List.PublicRelationFunding} colm={4} className={'teamcard my-3'}/>
+            <Cards title={"Event Management Team"} por={teams_List.EventManagement} colm={3} className={'teamcard my-3'}/>
         </div>
     )
 }
