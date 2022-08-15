@@ -1,0 +1,17 @@
+/* .about{
+    height: 500px;
+} */
+.about h1{
+    color: #3B44F6;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.about p{
+    /* display: inline-block; */
+    margin: 10px;
+    padding: 2px;
+    width: 60vw;
+    text-align: justify;
+}
