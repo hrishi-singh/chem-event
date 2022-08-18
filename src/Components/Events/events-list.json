@@ -1,0 +1,85 @@
+{
+    "AARAMBH":[
+        {
+            "img": "https://i.ibb.co/RH4pc7w/no-img.png",
+            "title": "Opening speech by Director",
+            "text": " "
+        },
+        {
+            "img": "https://i.ibb.co/RH4pc7w/no-img.png",
+            "title": " Department presentation by HOD",
+            "text":""
+        }
+
+    ],
+
+    "Lecture Series":[
+        {
+            "img": "https://i.ibb.co/RH4pc7w/no-img.png",
+            "title": " name of the 1st lecturer",
+            "text":"",
+            "link": "link to their profile"
+        },
+        {
+            "img": "https://i.ibb.co/RH4pc7w/no-img.png",
+            "title": " name of the 2nd lecturer",
+            "text":"",
+            "link": "link to their profile"
+        },
+        {
+            "img": "https://i.ibb.co/RH4pc7w/no-img.png",
+            "title": " name of the 3rd lecturer",
+            "text":"",
+            "link": "link to their profile"
+        }
+
+    ],
+    "Poster Presentation":[
+        {
+            "img": "https://i.ibb.co/RH4pc7w/no-img.png",
+            "title": "Research based poster presentation",
+            "text":""
+        },
+        {
+            "img": "https://i.ibb.co/RH4pc7w/no-img.png",
+            "title": "Business Idea Presentation",
+            "text":""
+        }
+
+    ],
+    "Events/Competitions":[
+        {
+            "img": "https://i.ibb.co/RH4pc7w/no-img.png",
+            "title": "Chemically powered car racing ",
+            "text":"",
+            "link":""
+        },
+        {
+            "img": "https://i.ibb.co/RH4pc7w/no-img.png",
+            "title": "Water Treatment Competition",
+            "text":"",
+            "link":""
+        },
+        {
+            "img": "https://i.ibb.co/RH4pc7w/no-img.png",
+            "title": "Treasure Hunt",
+            "text":"",
+            "link":""
+        }
+
+    ],
+    "Closing remarks":[
+        {
+            "img": "https://i.ibb.co/RH4pc7w/no-img.png",
+            "title": "",
+            "text":""
+        },
+        {
+            "img": "https://i.ibb.co/RH4pc7w/no-img.png",
+            "title": "",
+            "text":""
+        }
+
+    ]
+
+}
