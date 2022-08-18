@@ -39,6 +39,16 @@ const Footer = (props) => {
 
                                         }
                                     </ul>
+                                        {
+                                        college_Info.social_links.map((det) => {
+                                            return (
+                                                <a
+                                                    className="btn btn-outline-light btn-floating m-1"
+                                                    href={det.url} target="_blank" rel="noopener noreferrer" key={det.url}
+                                                ><img src={det.logo} alt={det.Name} /></a>
+                                            )
+                                        })
+                                    }
                                 </div>
 
                                 <div className="col-lg-3 col-md-6 mb-4 mb-md-0 contact-link">
