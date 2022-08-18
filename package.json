@@ -1,6 +1,5 @@
 {
   "name": "chemical-eve",
-  "homepage": "https://hrishi-singh.github.io/chem-event",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
