@@ -1,0 +1,134 @@
+{
+    "patrons":[
+        {
+            "img":"https://drive.google.com/file/d/1mOPPJLbJw3RmDNa8te384PTN751K7wEH/view?usp=sharing",
+            "phone": "+91-291-2801702",
+            "Name": "Dr. Santanu Chaudhury",
+            "position": "Director"
+        },
+        
+        {
+            "img":"https://drive.google.com/file/d/17v36WLwRGFjQ4UMHzoyygUtIOGKyTRSf/view?usp=sharing",
+            "phone": "(91 291) 280 1703",
+            "Name": "Dr. Pradip K Tewari",
+            "position":"Head of Department"
+        }
+    ],
+    
+    
+    "copatrons":[
+        {
+            "img":"https://i.ibb.co/Qkpg3br/sumitkamal.jpg",
+            "phone": "(91 291) 280 1715",
+            "Name": "Sumit Kamal",
+            "position":"Assistant Professor"
+        },
+        {
+            "img":"https://i.ibb.co/rMkr2pn/vikky.jpg",
+            "phone": "(91 291) 280 1710",
+            "Name": "Vikky Anand",
+            "position":"Assistant Professor" 
+        },
+        {
+            "img":"https://i.ibb.co/kXXfsFc/guptapk.jpg",
+            "phone": "(91 291) 280 1709",
+            "Name": "Prashant Kumar Gupta",
+            "position":"Assistant Professor"
+            
+        }
+    ],
+
+
+        "developers" : [
+            
+            {
+                "img":"https://i.ibb.co/kMhMj71/uc-export-view-id-1-Asbi-XJxof5-OQu-Cb4-Lu-Ns-Cwc-NLm-FNm-J6-B.jpg",
+                "Name": "Shreya Pagaria",
+                "phone": "9678859497",
+                "bio": "Co-coordinator"
+                
+            },
+            {
+                "img":"https://i.ibb.co/R9BJF9m/uc-export-view-id-1-S35-PULDUw1-Hhlt-OU9-FN0-EJQSPWUTY6-BI.jpg",
+                "roll": "B20CH018",
+                "Name": "Hrishi Raj Singh",
+                "phone": "6205587596",
+                "bio": "Coordinator"
+            },
+            {
+                "img":"https://drive.google.com/file/d/1is08rNFyk9JAA_FEJvN_FsK7-bn4e95u/view?usp=sharing",
+                "Name": "Nimish Purohit",
+                "phone": "81713 52711",
+                "bio": "Co-coordinator"
+
+            }
+        ],
+        
+        "PublicRelationCollege":[
+            {
+                "img":"https://i.ibb.co/x6kfQY3/image.png",
+                "Name": "Ankush Gupta",
+                "phone": "8791221865",
+                "bio" : "Co-coordinator"
+            },
+            {
+                "img":"https://i.ibb.co/m4PPWGQ/image.png",
+                "Name": "Goga Ram",
+                "phone": "7558622017",
+                "bio": "Coordinator"
+            },
+            {
+                "img":"https://i.ibb.co/rs7Km7c/uc-export-view-id-1gnr-E3-TP9-SMmkx-Oi-Y4-Ub1-X-moyhuu-OPE3.jpg",
+                "Name": "Simran Soni",
+                "phone": "8307079188",
+                "bio": "Co-coordinator"
+            }
+        ],
+        "PublicRelationFunding":[
+            {
+                "img":"https://i.ibb.co/cL0B5VY/uc-export-view-id-1-Ox-NLJ7-E6bcto6-X11ssgu-VJtyig26-FFd-U.jpg",
+                "Name": "Shefali Gupta",
+                "phone": "9754047997",
+                "bio" : "Co-coordinator"
+                
+            },
+            {
+                "img":"https://i.ibb.co/jWvNpqC/uc-export-view-id-1-PYZuzo-E3-S4djqms-O4-Oxs-Y1-LNQ0-C1-FTD9.jpg",
+                "Name": "Nitin Prasad",
+                "phone": "8218392003",
+                "bio" : "Coordinator"
+                
+            },
+            {
+                "img":"",
+                "Name": "Nitesh Meena",
+                "phone": "9509194541",
+                "bio" : "Co-coordinator"
+
+            }
+        ],
+        "EventManagement":[
+            {
+                "img":"https://i.ibb.co/K2Szb09/uc-export-view-id-1f-Dsh-W70sgoa-Rwwiv-Bl1-RPszi-R4n-DXu-CW.jpg",
+                "Name": "Suyash Surana",
+                "phone": "7898425068",
+                "bio":"Co-coordinator"
+                
+            },
+            {
+                "img":"https://i.ibb.co/MCH4d38/Capture.png",
+                "Name": "Arun Sahu",
+                "phone": "7489813538",
+                "bio":"Coordinator"
+
+            },
+            {
+                "img":"https://i.ibb.co/5v04jJq/uc-export-view-id-1d-MLH3-FLPG019-Gtu-NL2so-JLKo0hv1pcz-L.jpg",
+                "Name": "Karan Thakur ",
+                "phone": "9205715603",
+                "bio":"Co-coordinator"
+
+            }
+        ]
+
+}
