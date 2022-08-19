@@ -1,14 +1,14 @@
 {
     "patrons":[
         {
-            "img":"https://drive.google.com/file/d/1mOPPJLbJw3RmDNa8te384PTN751K7wEH/view?usp=sharing",
+            "img":"https://i.ibb.co/82GySH0/Director-small.png",
             "phone": "+91-291-2801702",
             "Name": "Dr. Santanu Chaudhury",
             "position": "Director"
         },
         
         {
-            "img":"https://drive.google.com/file/d/17v36WLwRGFjQ4UMHzoyygUtIOGKyTRSf/view?usp=sharing",
+            "img":"https://i.ibb.co/m8LDSDb/pradiptewari-samll.png",
             "phone": "(91 291) 280 1703",
             "Name": "Dr. Pradip K Tewari",
             "position":"Head of Department"
@@ -56,7 +56,7 @@
                 "bio": "Coordinator"
             },
             {
-                "img":"https://drive.google.com/file/d/1is08rNFyk9JAA_FEJvN_FsK7-bn4e95u/view?usp=sharing",
+                "img":"https://i.ibb.co/qWntsRq/nimish-1.jpg",
                 "Name": "Nimish Purohit",
                 "phone": "81713 52711",
                 "bio": "Co-coordinator"

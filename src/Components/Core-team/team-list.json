@@ -1,14 +1,14 @@
 {
     "patrons":[
         {
-            "img":"https://i.ibb.co/82GySH0/Director-small.png",
+            "img":"https://typeset-prod-media-server.s3.amazonaws.com/author-images/santanu-chaudhury-1/d078cb13-bdf5-4fae-991a-e93d07efda3d/author.jpg",
             "phone": "+91-291-2801702",
             "Name": "Dr. Santanu Chaudhury",
             "position": "Director"
         },
         
         {
-            "img":"https://i.ibb.co/m8LDSDb/pradiptewari-samll.png",
+            "img":"",
             "phone": "(91 291) 280 1703",
             "Name": "Dr. Pradip K Tewari",
             "position":"Head of Department"
@@ -63,8 +63,8 @@
 
             },
             {
-                "img":"",
-                "Name": "",
+                "img":"https://i.ibb.co/tqVq1Py/uc-export-view-id-10yf-Hj4-VEpx-D20-RLg-Rbq-N6-GMgt-Usn-CEFz.jpg",
+                "Name": "Niranjan Jangir",
                 "phone": "9462459005",
                 "bio": "Member"
 
@@ -123,6 +123,13 @@
 
             },
             {
+                "img":"https://i.ibb.co/Cn4L02q/uc-export-view-id-14-H9olh-XYr-VP0-Xna-M5-IXZ9-OA9-CPQI42i.jpg",
+                "Name": "Chris Tomsy",
+                "phone": "7758821511",
+                "bio":"Co-coordinator"
+
+            },
+            {
                 "img":"https://i.ibb.co/K2Szb09/uc-export-view-id-1f-Dsh-W70sgoa-Rwwiv-Bl1-RPszi-R4n-DXu-CW.jpg",
                 "Name": "Suyash Surana",
                 "phone": "7898425068",
@@ -134,12 +141,7 @@
                 "Name": "Karan Thakur ",
                 "phone": "9205715603",
                 "bio":"Co-coordinator"
-            },
-             {
-                "img":"",
-                "Name": "Ayush Abad ",
-                "phone": "9205715603",
-                "bio":"Member"
+
             }
         ]
 
