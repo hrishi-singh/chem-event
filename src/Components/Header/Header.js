@@ -101,7 +101,7 @@ import './Header.css'
           />
         <p>Brings to you</p>
        </span>
-          <h1>Chemical Event's Name</h1>
+          <h1> Catalyst </h1>
         
         <Link id='Register-btn' to='/registration'>Register Now</Link>
         </div>        
