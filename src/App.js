@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './Components/Navbar/Navbar'
-import Events from './Components/Events/Events'
+import Events from './Components/Events/Events2'
 // import Header from './Components/Header/Header'
 import Header from './Components/Header/HeaderVer1'
 import Login from './Components/Login/Login'

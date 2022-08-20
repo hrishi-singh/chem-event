@@ -1,0 +1,59 @@
+
+
+#thumbnail {
+
+    height: 400px;
+    display: flex;
+
+    background-image: url('./banner_temp.png');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+#thumbnail h1 {
+    font-size: 3em;
+    color: purple;
+    z-index: 1;
+}
+
+.box {
+    /* background-color: rgba(0, 0, 0, 0.137); */
+    position: relative;
+    width: 350px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+
+}
+
+.box::before {
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 100%;
+    background: linear-gradient(white, SILVER, rgb(22, 117, 113),purple);
+    animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.box::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background: radial-gradient(#FFF, SILVER);
+}

@@ -1,14 +1,14 @@
 {
     "patrons":[
         {
-            "img":"https://drive.google.com/file/d/1mOPPJLbJw3RmDNa8te384PTN751K7wEH/view?usp=sharing",
+            "img":"https://drive.google.com/uc?export=download&id=1mOPPJLbJw3RmDNa8te384PTN751K7wEH",
             "phone": "+91-291-2801702",
             "Name": "Dr. Santanu Chaudhury",
             "position": "Director"
         },
         
         {
-            "img":"https://drive.google.com/file/d/17v36WLwRGFjQ4UMHzoyygUtIOGKyTRSf/view?usp=sharing",
+            "img":"https://drive.google.com/uc?export=download&id=17v36WLwRGFjQ4UMHzoyygUtIOGKyTRSf",
             "phone": "(91 291) 280 1703",
             "Name": "Dr. Pradip K Tewari",
             "position":"Head of Department"
@@ -18,54 +18,10 @@
     
     "copatrons":[
         {
-            "img":"https://drive.google.com/file/d/1YVDZmejaUdD1OVSGIzLPMCgaRbtlDywB/view?usp=sharing",
-            "phone": " (91 291) 280 1713",
-            "Name": "Abhilasha Maheshwari",
-            "position":"Assistant Professor"
-        },
-        {
-            "img":"https://drive.google.com/file/d/16loFtuwLV-6vS9Tj9j0EZXRSEtAf93-O/view?usp=sharing",
-            "phone": "(91 291) 280 1706",
-            "Name": "Angan Sengupta",
-            "position":"Assistant Professor"
-        },
-        {
-            "img":"https://drive.google.com/file/d/13HVKlmHMeBQ9hznDnD2Djq0NEh5fhJoX/view?usp=sharing",
-            "phone": "(91 291) 280 1705",
-            "Name": "Deepak Arora",
-            "position":"Assistant Professor"
-        },
-        {
-            "img":"https://drive.google.com/file/d/1yxYXsc0EpU2zyPN4J6XTZkPWYoSAPVLi/view?usp=sharing",
-            "phone": "(91 291) 280 1711",
-            "Name": "Nirmalya Bachhar",
-            "position":"Assistant Professor"
-        },
-        {
-            "img":"https://drive.google.com/file/d/1ofXj4GmLMpxTNeJs53gJNKt95H1BF10g/view?usp=sharing",
-            "phone": " (91 291) 280 1707",
-            "Name": "Prasenjit Sarkar",
-            "position":"Assistant Professor"
-        },
-        {
-            "img":"https://i.ibb.co/kXXfsFc/guptapk.jpg",
-            "phone": "(91 291) 280 1709",
-            "Name": "Prashant Kumar Gupta",
-            "position":"Assistant Professor"
-            
-        },
-        {
-            "img":"https://drive.google.com/file/d/1DzQJztGOJK-MCzsisSFZF0uxAFlBO3bw/view?usp=sharing",
-            "phone": "(91 291) 280 1709",
-            "Name": "Praveen Kumar Sapiddi",
-            "position":"Assistant Professor"
-            
-        },
-        {
-            "img":"https://drive.google.com/file/d/1vg5lAD-PzoihWMB1drOoqovkjm0HAlaz/view?usp=sharing",
-            "phone": "(91 291) 280 1708",
-            "Name": "Ramesh Asapu",
-            "position":"Assistant Professor"
+            "img":"https://i.ibb.co/rMkr2pn/vikky.jpg",
+            "phone": "(91 291) 280 1710",
+            "Name": "Vikky Anand",
+            "position":"Assistant Professor" 
         },
         {
             "img":"https://i.ibb.co/Qkpg3br/sumitkamal.jpg",
@@ -74,19 +30,68 @@
             "position":"Assistant Professor"
         },
         {
-            "img":"https://drive.google.com/file/d/1GJBr8rVc1DGBxcxgD99ZiZYzbbtRhcjn/view?usp=sharing",
-            "phone": "(91 291) 234 5677 ", 
-            "Name": "Tara Chand Kumawat",
+            "img":"https://i.ibb.co/kXXfsFc/guptapk.jpg",
+            "phone": "(91 291) 280 1709",
+            "Name": "Prashant Kumar Gupta",
             "position":"Assistant Professor"
-        },
-        {
-            "img":"https://i.ibb.co/rMkr2pn/vikky.jpg",
-            "phone": "(91 291) 280 1710",
-            "Name": "Vikky Anand",
-            "position":"Assistant Professor" 
+            
         }
-    ],
 
+    ],
+"Faculties":[
+    {
+        "img":"https://drive.google.com/uc?export=download&id=1YVDZmejaUdD1OVSGIzLPMCgaRbtlDywB",
+        "phone": " (91 291) 280 1713",
+        "Name": "Abhilasha Maheshwari",
+        "position":"Assistant Professor"
+    },
+    {
+        "img":"https://drive.google.com/uc?export=download&id=16loFtuwLV-6vS9Tj9j0EZXRSEtAf93-O",
+        "phone": "(91 291) 280 1706",
+        "Name": "Angan Sengupta",
+        "position":"Assistant Professor"
+    },
+    {
+        "img":"https://drive.google.com/uc?export=download&id=13HVKlmHMeBQ9hznDnD2Djq0NEh5fhJoX",
+        "phone": "(91 291) 280 1705",
+        "Name": "Deepak Arora",
+        "position":"Assistant Professor"
+    },
+    {
+        "img":"https://drive.google.com/uc?export=download&id=1yxYXsc0EpU2zyPN4J6XTZkPWYoSAPVLi",
+        "phone": "(91 291) 280 1711",
+        "Name": "Nirmalya Bachhar",
+        "position":"Assistant Professor"
+    },
+    {
+        "img":"https://drive.google.com/uc?export=download&id=1ofXj4GmLMpxTNeJs53gJNKt95H1BF10g",
+        "phone": " (91 291) 280 1707",
+        "Name": "Prasenjit Sarkar",
+        "position":"Assistant Professor"
+    },
+    
+    {
+        "img":"https://drive.google.com/uc?export=download&id=1DzQJztGOJK-MCzsisSFZF0uxAFlBO3bw",
+        "phone": "(91 291) 280 1709",
+        "Name": "Praveen Kumar Sapiddi",
+        "position":"Assistant Professor"
+        
+    },
+    {
+        "img":"https://drive.google.com/uc?export=download&id=1vg5lAD-PzoihWMB1drOoqovkjm0HAlaz",
+        "phone": "(91 291) 280 1708",
+        "Name": "Ramesh Asapu",
+        "position":"Assistant Professor"
+    },
+   
+    {
+        "img":"https://drive.google.com/uc?export=download&id=1GJBr8rVc1DGBxcxgD99ZiZYzbbtRhcjn",
+        "phone": "(91 291) 234 5677 ", 
+        "Name": "Tara Chand Kumawat",
+        "position":"Assistant Professor"
+    }
+    
+],
 
         "developers" : [
             
@@ -105,7 +110,7 @@
                 "bio": "Coordinator"
             },
             {
-                "img":"https://drive.google.com/file/d/1is08rNFyk9JAA_FEJvN_FsK7-bn4e95u/view?usp=sharing",
+                "img":"https://drive.google.com/uc?export=download&id=1is08rNFyk9JAA_FEJvN_FsK7-bn4e95u",
                 "Name": "Nimish Purohit",
                 "phone": "81713 52711",
                 "bio": "Co-coordinator"
