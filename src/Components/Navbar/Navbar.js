@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import {useNavigate} from "react-router-dom"
 import './Navbar.css'
-// import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
@@ -9,7 +8,6 @@ import { useAuth } from "../contexts/AuthContext";
 
 function CollapsibleExample() {
   const currentUser = useAuth();
-  // const [error, setError] = useState("")
   const [setError] = useState("")
   const {  logout } = useAuth()  
   const history = useNavigate()  
