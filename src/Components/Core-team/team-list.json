@@ -18,6 +18,25 @@
     
     "copatrons":[
         {
+            "img":"https://i.ibb.co/Qkpg3br/sumitkamal.jpg",
+            "phone": "(91 291) 280 1715",
+            "Name": "Sumit Kamal",
+            "position":"Assistant Professor"
+        },
+        {
+            "img":"https://i.ibb.co/kXXfsFc/guptapk.jpg",
+            "phone": "(91 291) 280 1709",
+            "Name": "Prashant Kumar Gupta",
+            "position":"Assistant Professor"
+            
+        },
+        {
+            "img":"https://i.ibb.co/rMkr2pn/vikky.jpg",
+            "phone": "(91 291) 280 1710",
+            "Name": "Vikky Anand",
+            "position":"Assistant Professor" 
+        },
+        {
             "img":"https://drive.google.com/file/d/1YVDZmejaUdD1OVSGIzLPMCgaRbtlDywB/view?usp=sharing",
             "phone": " (91 291) 280 1713",
             "Name": "Abhilasha Maheshwari",
@@ -48,13 +67,6 @@
             "position":"Assistant Professor"
         },
         {
-            "img":"https://i.ibb.co/kXXfsFc/guptapk.jpg",
-            "phone": "(91 291) 280 1709",
-            "Name": "Prashant Kumar Gupta",
-            "position":"Assistant Professor"
-            
-        },
-        {
             "img":"https://drive.google.com/file/d/1DzQJztGOJK-MCzsisSFZF0uxAFlBO3bw/view?usp=sharing",
             "phone": "(91 291) 280 1709",
             "Name": "Praveen Kumar Sapiddi",
@@ -68,22 +80,10 @@
             "position":"Assistant Professor"
         },
         {
-            "img":"https://i.ibb.co/Qkpg3br/sumitkamal.jpg",
-            "phone": "(91 291) 280 1715",
-            "Name": "Sumit Kamal",
-            "position":"Assistant Professor"
-        },
-        {
             "img":"https://drive.google.com/file/d/1GJBr8rVc1DGBxcxgD99ZiZYzbbtRhcjn/view?usp=sharing",
             "phone": "(91 291) 234 5677 ", 
             "Name": "Tara Chand Kumawat",
             "position":"Assistant Professor"
-        },
-        {
-            "img":"https://i.ibb.co/rMkr2pn/vikky.jpg",
-            "phone": "(91 291) 280 1710",
-            "Name": "Vikky Anand",
-            "position":"Assistant Professor" 
         }
     ],
 
