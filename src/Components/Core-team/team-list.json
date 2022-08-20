@@ -1,14 +1,14 @@
 {
     "patrons":[
         {
-            "img":"https://typeset-prod-media-server.s3.amazonaws.com/author-images/santanu-chaudhury-1/d078cb13-bdf5-4fae-991a-e93d07efda3d/author.jpg",
+            "img":"https://drive.google.com/file/d/1mOPPJLbJw3RmDNa8te384PTN751K7wEH/view?usp=sharing",
             "phone": "+91-291-2801702",
             "Name": "Dr. Santanu Chaudhury",
             "position": "Director"
         },
         
         {
-            "img":"",
+            "img":"https://drive.google.com/file/d/17v36WLwRGFjQ4UMHzoyygUtIOGKyTRSf/view?usp=sharing",
             "phone": "(91 291) 280 1703",
             "Name": "Dr. Pradip K Tewari",
             "position":"Head of Department"
@@ -18,16 +18,34 @@
     
     "copatrons":[
         {
-            "img":"https://i.ibb.co/Qkpg3br/sumitkamal.jpg",
-            "phone": "(91 291) 280 1715",
-            "Name": "Sumit Kamal",
+            "img":"https://drive.google.com/file/d/1YVDZmejaUdD1OVSGIzLPMCgaRbtlDywB/view?usp=sharing",
+            "phone": " (91 291) 280 1713",
+            "Name": "Abhilasha Maheshwari",
             "position":"Assistant Professor"
         },
         {
-            "img":"https://i.ibb.co/rMkr2pn/vikky.jpg",
-            "phone": "(91 291) 280 1710",
-            "Name": "Vikky Anand",
-            "position":"Assistant Professor" 
+            "img":"https://drive.google.com/file/d/16loFtuwLV-6vS9Tj9j0EZXRSEtAf93-O/view?usp=sharing",
+            "phone": "(91 291) 280 1706",
+            "Name": "Angan Sengupta",
+            "position":"Assistant Professor"
+        },
+        {
+            "img":"https://drive.google.com/file/d/13HVKlmHMeBQ9hznDnD2Djq0NEh5fhJoX/view?usp=sharing",
+            "phone": "(91 291) 280 1705",
+            "Name": "Deepak Arora",
+            "position":"Assistant Professor"
+        },
+        {
+            "img":"https://drive.google.com/file/d/1yxYXsc0EpU2zyPN4J6XTZkPWYoSAPVLi/view?usp=sharing",
+            "phone": "(91 291) 280 1711",
+            "Name": "Nirmalya Bachhar",
+            "position":"Assistant Professor"
+        },
+        {
+            "img":"https://drive.google.com/file/d/1ofXj4GmLMpxTNeJs53gJNKt95H1BF10g/view?usp=sharing",
+            "phone": " (91 291) 280 1707",
+            "Name": "Prasenjit Sarkar",
+            "position":"Assistant Professor"
         },
         {
             "img":"https://i.ibb.co/kXXfsFc/guptapk.jpg",
@@ -35,6 +53,37 @@
             "Name": "Prashant Kumar Gupta",
             "position":"Assistant Professor"
             
+        },
+        {
+            "img":"https://drive.google.com/file/d/1DzQJztGOJK-MCzsisSFZF0uxAFlBO3bw/view?usp=sharing",
+            "phone": "(91 291) 280 1709",
+            "Name": "Praveen Kumar Sapiddi",
+            "position":"Assistant Professor"
+            
+        },
+        {
+            "img":"https://drive.google.com/file/d/1vg5lAD-PzoihWMB1drOoqovkjm0HAlaz/view?usp=sharing",
+            "phone": "(91 291) 280 1708",
+            "Name": "Ramesh Asapu",
+            "position":"Assistant Professor"
+        },
+        {
+            "img":"https://i.ibb.co/Qkpg3br/sumitkamal.jpg",
+            "phone": "(91 291) 280 1715",
+            "Name": "Sumit Kamal",
+            "position":"Assistant Professor"
+        },
+        {
+            "img":"https://drive.google.com/file/d/1GJBr8rVc1DGBxcxgD99ZiZYzbbtRhcjn/view?usp=sharing",
+            "phone": "(91 291) 234 5677 ", 
+            "Name": "Tara Chand Kumawat",
+            "position":"Assistant Professor"
+        },
+        {
+            "img":"https://i.ibb.co/rMkr2pn/vikky.jpg",
+            "phone": "(91 291) 280 1710",
+            "Name": "Vikky Anand",
+            "position":"Assistant Professor" 
         }
     ],
 
@@ -56,22 +105,21 @@
                 "bio": "Coordinator"
             },
             {
-                "img":"",
+                "img":"https://drive.google.com/file/d/1is08rNFyk9JAA_FEJvN_FsK7-bn4e95u/view?usp=sharing",
                 "Name": "Nimish Purohit",
                 "phone": "81713 52711",
                 "bio": "Co-coordinator"
-
-            },
-            {
-                "img":"https://i.ibb.co/tqVq1Py/uc-export-view-id-10yf-Hj4-VEpx-D20-RLg-Rbq-N6-GMgt-Usn-CEFz.jpg",
-                "Name": "Niranjan Jangir",
-                "phone": "9462459005",
-                "bio": "Member"
 
             }
         ],
         
         "PublicRelationCollege":[
+            {
+                "img":"https://i.ibb.co/x6kfQY3/image.png",
+                "Name": "Ankush Gupta",
+                "phone": "8791221865",
+                "bio" : "Co-coordinator"
+            },
             {
                 "img":"https://i.ibb.co/m4PPWGQ/image.png",
                 "Name": "Goga Ram",
@@ -79,19 +127,20 @@
                 "bio": "Coordinator"
             },
             {
-                "img":"https://i.ibb.co/x6kfQY3/image.png",
-                "Name": "Ankush Gupta",
-                "phone": "8791221865",
-                "bio" : "Coordinator"
-            },
-            {
                 "img":"https://i.ibb.co/rs7Km7c/uc-export-view-id-1gnr-E3-TP9-SMmkx-Oi-Y4-Ub1-X-moyhuu-OPE3.jpg",
                 "Name": "Simran Soni",
                 "phone": "8307079188",
-                "bio": "Member"
+                "bio": "Co-coordinator"
             }
         ],
         "PublicRelationFunding":[
+            {
+                "img":"https://i.ibb.co/cL0B5VY/uc-export-view-id-1-Ox-NLJ7-E6bcto6-X11ssgu-VJtyig26-FFd-U.jpg",
+                "Name": "Shefali Gupta",
+                "phone": "9754047997",
+                "bio" : "Co-coordinator"
+                
+            },
             {
                 "img":"https://i.ibb.co/jWvNpqC/uc-export-view-id-1-PYZuzo-E3-S4djqms-O4-Oxs-Y1-LNQ0-C1-FTD9.jpg",
                 "Name": "Nitin Prasad",
@@ -100,40 +149,26 @@
                 
             },
             {
-                "img":"https://i.ibb.co/cL0B5VY/uc-export-view-id-1-Ox-NLJ7-E6bcto6-X11ssgu-VJtyig26-FFd-U.jpg",
-                "Name": "Shefali Gupta",
-                "phone": "9754047997",
-                "bio" : "Coordinator"
-
-            },
-            {
-                "img":"https://i.ibb.co/7NTszYM/uc-export-view-id-1-Pj-ZZG1v-VXHHa-Yopmzqm-Jczmhb-Fi6n-Esv.jpg",
-                "Name": "Devang Dobliyal",
-                "phone": "8092053038",
-                "bio" : "Member"
+                "img":"",
+                "Name": "Nitesh Meena",
+                "phone": "9509194541",
+                "bio" : "Co-coordinator"
 
             }
         ],
         "EventManagement":[
             {
-                "img":"https://i.ibb.co/MCH4d38/Capture.png",
-                "Name": "Arun Sahu",
-                "phone": "7489813538",
-                "bio":"Coordinator"
-
-            },
-            {
-                "img":"https://i.ibb.co/Cn4L02q/uc-export-view-id-14-H9olh-XYr-VP0-Xna-M5-IXZ9-OA9-CPQI42i.jpg",
-                "Name": "Chris Tomsy",
-                "phone": "7758821511",
-                "bio":"Co-coordinator"
-
-            },
-            {
                 "img":"https://i.ibb.co/K2Szb09/uc-export-view-id-1f-Dsh-W70sgoa-Rwwiv-Bl1-RPszi-R4n-DXu-CW.jpg",
                 "Name": "Suyash Surana",
                 "phone": "7898425068",
                 "bio":"Co-coordinator"
+                
+            },
+            {
+                "img":"https://i.ibb.co/MCH4d38/Capture.png",
+                "Name": "Arun Sahu",
+                "phone": "7489813538",
+                "bio":"Coordinator"
 
             },
             {
