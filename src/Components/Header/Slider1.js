@@ -1,26 +1,26 @@
 import React from 'react'
-// import { loadFull } from "tsparticles";
-// import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
+import Particles from "react-tsparticles";
 import { Link } from 'react-router-dom';
 
-const Slider1= () => {
-    // const particlesInit = async (main) => {
-    //     console.log(main);
+const Slider1= (props) => {
+    const particlesInit = async (main) => {
+        console.log(main);
     
-    //   await loadFull(main);
-    //   };
+      await loadFull(main);
+      };
     
-    //   const particlesLoaded = (container) => {
-    //     console.log(container);
-    //   };
+      const particlesLoaded = (container) => {
+        console.log(container);
+      };
   return (
     <div className='welcome'>
       <div id='particles-js' className='container'>
-      {/* <img src='https://mir-s3-cdn-cf.behance.net/project_modules/fs/8cca6a97228621.5fd99b2882636.png' alt="" className='thumbnail-img1'/> */}
+      <img src='https://mir-s3-cdn-cf.behance.net/project_modules/fs/8cca6a97228621.5fd99b2882636.png' alt="" className='thumbnail-img1'/>
        <span>
         <h4>Department of Chemical Engineering</h4>
       
-          {/* <Particles
+          <Particles
             id="tsparticles"
             init={particlesInit}
             loaded={particlesLoaded}
@@ -92,15 +92,15 @@ const Slider1= () => {
               },
               detectRetina: true,
             }}
-          /> */}
+          />
         <p>Brings to you</p>
        </span>
-          <h1>Chemical Event's Name</h1>
+          <h1>{props.EventName}</h1>
         
         <Link id='Register-btn' to='/registration'>Register Now</Link>
         </div>        
     </div>
   )
 }
-// console.log(Particles.speed);
+console.log(Particles.speed);
 export default Slider1

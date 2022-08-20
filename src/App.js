@@ -4,7 +4,8 @@ import Events from './Components/Events/Events'
 // import Header from './Components/Header/Header'
 import Header from './Components/Header/HeaderVer1'
 import Login from './Components/Login/Login'
-import Registration from './Components/Registration/Registration';
+import Registration from './Components/Registration/RegistrationV1';
+// import Registration from './Components/Registration/Registration';
 import Sponsors from './Components/Sponsors/Sponsors';
 import Team from './Components/Core-team/Core-team';
 import Footer from './Components/Footer/Footer';
@@ -23,7 +24,7 @@ function App() {
       <AuthProvider>
         <Navbar/>
         <Routes>
-        <Route path="/chem-event" element={<Header/>}></Route>
+        <Route path="/" element={<Header/>}></Route>
         <Route path="/events" element={<Events/>}></Route>
         <Route path="/sponsors" element={<Sponsors/>}></Route>
         <Route path="/team" element={<Team/>}></Route>

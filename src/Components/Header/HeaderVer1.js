@@ -14,7 +14,7 @@ import HoD from './Slider2.js'
     // code for Header Welcome 
     <>
     <Carousel className='slides'>
-      <div><Welcome/></div>
+      <div><Welcome Event/></div>
       <div><HoD/></div>
     </Carousel>
     <About/>

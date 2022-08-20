@@ -1,6 +1,5 @@
-.event-header{
-    height: 800px;
-    display:flex;
+ .event-header{
+    height: 50vh;
 
     background-image: url("./banner_temp.png");
     background-size: cover;

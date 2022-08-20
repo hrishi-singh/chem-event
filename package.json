@@ -1,6 +1,6 @@
 {
   "name": "chemical-eve",
-  "homepage": "https://hrishi-singh.github.io/chem-event",
+ 
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +11,7 @@
     "axios": "^0.27.2",
     "bootstrap": "^5.2.0",
     "firebase": "^9.9.2",
+    "mdb-react-ui-kit": "^4.1.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.4.0",
     "react-bootstrap-v5": "^1.4.0",

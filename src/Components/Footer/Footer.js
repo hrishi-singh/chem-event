@@ -30,34 +30,6 @@ const Footer = (props) => {
                                 <h5 className="text-uppercase">Quick Links</h5>
                                 <ul className="list-unstyled mb-3">
 
-<<<<<<< HEAD
-=======
-                                        {
-                                            college_Info.Webites.map((det) => {
-                                                return (
-                                                    <li key={det.url}>
-                                                        <a href={det.url} target="_blank" rel="noopener noreferrer" className="text-white mb-3">{det.Name}</a>
-                                                    </li>
-                                                )
-                                            })
-
-                                        }
-                                    </ul>
-                                        {
-                                        college_Info.social_links.map((det) => {
-                                            return (
-                                                <a
-                                                    className="btn btn-outline-light btn-floating m-1"
-                                                    href={det.url} target="_blank" rel="noopener noreferrer" key={det.url}
-                                                ><img src={det.logo} alt={det.Name} /></a>
-                                            )
-                                        })
-                                    }
-                                </div>
-
-                                <div className="col-lg-3 col-md-6 mb-4 mb-md-0 contact-link">
-                                    <h5 className="text-uppercase">Contact Us</h5>
->>>>>>> 9565b4e79f1d4e3bcdf988ffc45e7a9f11796692
                                     {
                                         college_Info.Webites.map((det) => {
                                             return (
