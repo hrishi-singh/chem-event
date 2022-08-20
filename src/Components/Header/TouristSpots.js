@@ -11,9 +11,9 @@ const TouristSpots = () => {
   return (
     <div>
         <h1>Places to Visit at Jodhpur</h1>
-     <Carousel breakPoints={breakpoints} enableAutoPlay={true}>
-        {
-        tp.places.map(item => <div key={item.img} className="spots-slideshow"><img src={item.img} alt="" /><dir>{item.name}</dir></div>)}
+     <Carousel breakPoints={breakpoints}  enableAutoPlay={true}>
+      
+       {tp.places.map(item => <div key={item.img} className="spots-slideshow"><img src={item.img} alt="" /><dir>{item.name}</dir></div>)}
       </Carousel>
     </div>
   )

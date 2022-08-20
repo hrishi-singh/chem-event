@@ -14,10 +14,10 @@ import HoD from './Slider2.js'
     // code for Header Welcome 
     <>
     <Carousel className='slides'>
-      <div><Welcome Event/></div>
+      <div><Welcome EventName="Chem-E-Sorption" /></div>
       <div><HoD/></div>
     </Carousel>
-    <About/>
+    <About EventName="Chem-E-Sorption"/>
     <Spots/>
     </>
   )

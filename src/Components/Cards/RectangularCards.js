@@ -1,28 +1,33 @@
 import React from 'react'
+// import Card from 'react-bootstrap/Card';
+import './RectangularCards.css'
 import Card from 'react-bootstrap/Card';
-import Col from 'react-bootstrap/Col';
+import CardGroup from 'react-bootstrap/CardGroup';
 import Row from 'react-bootstrap/Row';
 
 const RectangularCards = (props) => {
     let list=props.arr;
     let mapping=list.map((det)=>{
-        return(
-            <Row xs={1} md={3} className="g-4">
-        <Col>
-          <Card>
+        return(   
+    <div className="container my-3">
+    <CardGroup>
+    <Row xs={1} md={3} className="g-4">
+    <Card key={det.img}>
             <Card.Img variant="top" src={det.logo?det.logo:det.img} />
             <Card.Body>
               {det.text}
             </Card.Body>
           </Card>
-        </Col>
-        </Row>
+    </Row>
+         </CardGroup>
+    </div>
+
         )
     })
   return (
-    <div>
-        {mapping}
-    </div>
+        <>      
+        {mapping}  
+        </>
   )
 }
 

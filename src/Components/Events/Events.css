@@ -7,8 +7,26 @@
     align-items: center;
     overflow: hidden;
 }
+.aarambh{
+    margin: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
+}
+.RectCard{
+    margin: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
+/* .a{
+    display: flex;
+    flex-direction: column;
+} */
 /* .box {
     background-color: rgba(0, 0, 0, 0.137);
     position: relative;
