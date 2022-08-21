@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+.regbody{
+  height: 100vh;
+  /* max-height: 70%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px; */
+  background: rgba(0,0,0,0.7);
+}
+.regcotainer{
+  color: white;
+  max-width: 700px;
+  width: 100%;
+  background-color: black;  
+  padding: 10px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    /* position:relative;
+    top: 50px; */
+  -webkit-transform:scale(0.9);
+  -moz-transform:scale(0.9);
+  -ms-transform:scale(0.9);
+  transform:scale(0.9);
+padding-bottom: 10px;
+    
+}
+.regcotainer .regtitle{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+  text-align: center;
+}
+/* .regcotainer .regtitle::before{
+  
+  regcontent: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  border-radius: 5px;
+  ;
+} */
+.regcontent form .user-details{
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 4px 0;
+}
+form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+  display: flex;
+  flex-direction: column;
+}
+form .input-box span.details{
+  display: flex;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-box input{
+  height: 40px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+  border-color: #226089;
+}
+ /* form .gender-details .gender-title{
+  float: left;
+  font-size: 17px;
+  font-weight: 500;
+  position: relative;
+  padding: 40px;
+ } */
+ form .category{
+   display: flex;
+   width: 80%;
+   margin: 5px 0 ;
+   justify-content: space-between;
+   padding: 1px;
+ }
+ form .category label{
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+ }
+ form .category label .dot{
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #d9d9d9;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+ #dot-1:checked ~ .category label .one,
+ #dot-2:checked ~ .category label .two,
+ #dot-3:checked ~ .category label .three{
+   background: #226089;
+   border-color: #d9d9d9;
+ }
+ form input[type="radio"]{
+   display: none;
+ }
+ form .regbutton{
+   height: 45px;
+   /* margin: 35px 0; */
+ }
+ form .regbutton input{
+   height: 100%;
+   max-width: 100%;
+   border-radius: 5px;
+   border: none;
+   color: whitesmoke;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: #226089;
+   
+ }
+ form .regbutton input:hover{
+  /* transform: scale(0.99); */
+  background-color:  #4592af;
+  color: whitesmoke;
+
+  }
+.regbutton{
+  display:flex ;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* width: 15vw; */
+}
+.reg-register{    
+  display: flex;
+  justify-content: center;
+  width: auto;
+
+}
+ @media(max-width: 584px){
+ .regcotainer{
+  max-width: 100%;
+}
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  form .category{
+    width: 100%;
+  }
+  .regcontent form .user-details{
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .user-details::-webkit-scrollbar{
+    width: 5px;
+  }
+  }
+  @media(max-width: 459px){
+  .regcotainer .regcontent .category{
+    flex-direction: column;
+  }
+}
+
+form .accomodation-details .accomodation-title, .student-title, form .student-details, form .gender-details .gender-title{
+  font-size: 17px;
+  font-weight: 500;
+  position: relative;
+  float: left;
+ }
+ 
+ #dot-11:checked ~ .category label .one1,
+ #dot-22:checked ~ .category label .two2{
+   background: #226089;
+   border-color: #d9d9d9;
+ }
+ #dot-33{
+  display: none;
+ }
+ .two3{
+  display: none;
+ }
+/* 
+ {
+  font-size: 17px;
+  font-weight: 500;
+  position: relative;
+ } */
+ 
+ #dot-111:checked ~ .category label .one11,
+ #dot-222:checked ~ .category label .two22{
+   background: #226089;
+   border-color: #d9d9d9;
+ }
+
+ ::-moz-selection { 
+  background: #4592AF;
+}
+
+::selection {
+  background: #4592AF;
+
+}

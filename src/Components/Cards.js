@@ -43,7 +43,7 @@ function Cards(props) {
                          </Card.Text>
                          {props.btn?
      <><div className="btn-group mx-3">
-                                 <a href="/" className="btn btn-primary" aria-current="page">RuleBook</a>
+                                 <a href={`${det.rulebook}`} target="__blank" className="btn btn-primary" aria-current="page">RuleBook</a>
                              </div><div className="btn-group mx-3">
                                      <a href={`${det.link}`} target="__blank" className="btn btn-primary">Registration Form</a>
                                  </div></>:false}

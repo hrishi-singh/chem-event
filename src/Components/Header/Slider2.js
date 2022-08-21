@@ -5,8 +5,8 @@ const Slider2 = () => {
     <div className='faculty-slide'>
       <div className="faculty-img">
 
-          <img src="https://iitj.ac.in/schools/images/director.jpg" alt="" id='dir'  />
-          {/* <img src="https://iitj.ac.in/dept_faculty_pic/pradiptewari.jpg" alt=""  /> */}
+          {/* <img src="https://iitj.ac.in/schools/images/director.jpg" alt="" id='dir'  /> */}
+          <img src="https://i.ibb.co/grgF7jg/Chem-dept-removebg-preview.png" alt=""  />
       </div>
       </div>
   )
