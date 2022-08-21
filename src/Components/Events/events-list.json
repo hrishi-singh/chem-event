@@ -1,82 +1,82 @@
 {
     "AARAMBH":[
         {
-            "img": "https://i.ibb.co/RH4pc7w/no-img.png",
-            "title": "Opening speech by Director",
+            "img": "bccncnvn.jpeg",
+            "Name": "Opening speech by Director",
             "text": "uhiugvyhjfyjhvfukifv8ikfvfikfvukifvik8"
         },
         {
-            "img": "https://i.ibb.co/RH4pc7w/no-img.png",
-            "title": " Department presentation by HOD",
+            "img": "https://i.ibb.co/StKzPz3/Dept-HoD.jpg",
+            "Name": " Department presentation by HOD",
             "text":""
         }
 
     ],
 
-    "Lecture Series":[
+    "LectureSeries":[
         {
-            "img": "https://i.ibb.co/RH4pc7w/no-img.png",
-            "title": " name of the 1st lecturer",
+            "img": "https://i.ibb.co/1XGwLvm/Whats-App-Image-2022-08-20-at-8-17-51-PM.jpg",
+            "Name": " Name of the 1st lecturer",
             "text":"",
             "link": "link to their profile"
         },
         {
-            "img": "https://i.ibb.co/RH4pc7w/no-img.png",
-            "title": " name of the 2nd lecturer",
+            "img": "https://i.ibb.co/B4QnHS2/Whats-App-Image-2022-08-20-at-8-18-16-PM.jpg",
+            "Name": " Name of the 2nd lecturer",
             "text":"",
             "link": "link to their profile"
         },
         {
-            "img": "https://i.ibb.co/RH4pc7w/no-img.png",
-            "title": " name of the 3rd lecturer",
+            "img": "https://i.ibb.co/N9k9XKq/Whats-App-Image-2022-08-20-at-8-18-38-PM.jpg",
+            "Name": " Name of the 3rd lecturer",
             "text":"",
             "link": "link to their profile"
         }
 
     ],
-    "Poster Presentation":[
+    "PosterPresentation":[
         {
             "img": "https://i.ibb.co/RH4pc7w/no-img.png",
-            "title": "Research based poster presentation",
+            "Name": "Research based poster presentation",
             "text":""
         },
         {
             "img": "https://i.ibb.co/RH4pc7w/no-img.png",
-            "title": "Business Idea Presentation",
+            "Name": "Business Idea Presentation",
             "text":""
         }
 
     ],
-    "Events/Competitions":[
+    "EventsCompetitions":[
         {
             "img": "https://i.ibb.co/RH4pc7w/no-img.png",
-            "title": "Chemically powered car racing ",
+            "Name": "Water Treatment Competition",
             "text":"",
-            "link":""
+            "link":"https://docs.google.com/forms/d/1Lcu0umY25mOt5rMHxGG9baB37qT5nyRSdwwLpWu_Ngg/edit"
+        },
+        {
+            "img": "https://drive.google.com/uc?export=download&id=1fB3XlNnLlttyj0LvXBha2sFfvcJhowcK",
+            "Name": "Chemically powered car racing ",
+            "text":"",
+            "link":"https://docs.google.com/forms/d/1_gP98hBiUpFEsOyLu5lWFREQWqq-iwW61-4KYK8ErkM/edit"
         },
         {
             "img": "https://i.ibb.co/RH4pc7w/no-img.png",
-            "title": "Water Treatment Competition",
+            "Name": "Treasure Hunt",
             "text":"",
-            "link":""
-        },
-        {
-            "img": "https://i.ibb.co/RH4pc7w/no-img.png",
-            "title": "Treasure Hunt",
-            "text":"",
-            "link":""
+            "link":"https://docs.google.com/forms/d/11op2tL0tmOhgJdOPonwSzYWvc2zrW9fmqzYn_qNPKuo/edit"
         }
 
     ],
-    "Closing remarks":[
+    "ClosingRemarks":[
         {
             "img": "https://i.ibb.co/RH4pc7w/no-img.png",
-            "title": "",
+            "Name": "",
             "text":""
         },
         {
             "img": "https://i.ibb.co/RH4pc7w/no-img.png",
-            "title": "",
+            "Name": "",
             "text":""
         }
 

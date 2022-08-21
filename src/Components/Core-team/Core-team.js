@@ -1,7 +1,5 @@
 import React from 'react'
-// import Aos from 'aos';
 import 'aos/dist/aos.css';
-// import teams_List from './team-list-shreya.json';
 import teams_List from './team-list.json';
 import './Core-team.css';
 import Cards from '../Cards';

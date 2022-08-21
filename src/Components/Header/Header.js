@@ -21,7 +21,6 @@ import './Header.css'
     <div>
       <section id='welcome'>
       <div id='particles-js'>
-      {/* <img src='https://i.ibb.co/55FFGnW/8cca6a97228621-5fd99b2882636.png' alt="" id='thumbnail-img'/> */}
       <img src={thumbnail} alt="" id='thumbnail-img'/>
        <span>
         <h4>Department of Chemical Engineering</h4>

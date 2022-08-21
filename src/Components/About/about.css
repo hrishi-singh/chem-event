@@ -3,6 +3,7 @@
 } */
 .about h1{
     color: #3B44F6;
+    font-family: 'Bebas Neue', cursive;
 }
 .content{
     display: flex;
@@ -10,8 +11,10 @@
 }
 .about p{
     /* display: inline-block; */
-    margin: 10px;
-    padding: 2px;
-    width: 60vw;
+    margin:10px;
+    padding: 0px 80px;
+    /* width: 60vw; */
+    display: flex;
+    justify-content: space-around;
     text-align: justify;
 }

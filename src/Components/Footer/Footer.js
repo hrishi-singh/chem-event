@@ -19,9 +19,9 @@ const Footer = (props) => {
                                     Department of Chemical Engineering <br />
                                     Indian Institute of Technology Jodhpur<br />
                                     NH 65 Nagaur Road<br />
-                                    Karwar 342030,Jodhpur Rajasthan<br/>
+                                    Karwar 342030,Jodhpur Rajasthan<br />
                                     +91-291-2801702<br />
-                                        office_che@iitj.ac.in
+                                    office_che@iitj.ac.in
                                 </p>
                             </div>
 
@@ -53,11 +53,14 @@ const Footer = (props) => {
                                 }
                             </div>
 
-                            <div className="col-lg-3 col-md-6 mb-4 mb-md-0 contact-link">
+                            <div className="col-lg-2 col-md-6 mb-4 mb-md-0 contact-link">
                                 <h5 className="text-uppercase">Contact Us</h5>
+                                <h6>
+                                    <hr/>
+                                    E-mail : chemesorptioniitj@gmail.com <br/><br/>
+                                    vikky@iitj.ac.in
 
-
-
+                                </h6> 
                             </div>
                         </div>
                     </section>
@@ -85,5 +88,5 @@ const Footer = (props) => {
 }
 export default Footer
 Footer.defaultProps = {
-    Name: "Chemical Event"
+    Name: "Chem-E-sorption"
 }

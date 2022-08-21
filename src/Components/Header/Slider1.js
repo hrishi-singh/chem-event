@@ -20,7 +20,7 @@ const Slider1= (props) => {
        <span>
         <h4>Department of Chemical Engineering</h4>
       
-          <Particles
+          {/* <Particles
             id="tsparticles"
             init={particlesInit}
             loaded={particlesLoaded}
@@ -92,7 +92,7 @@ const Slider1= (props) => {
               },
               detectRetina: true,
             }}
-          />
+          /> */}
         <p>Brings to you</p>
        </span>
           <h1>{props.EventName}</h1>

@@ -57,3 +57,10 @@
     inset: 4px;
     background: radial-gradient(#FFF, SILVER);
 }
+
+.eventcard img{
+    border-radius: 0%;
+}
+.eventcard{
+    max-width: 344px;
+}

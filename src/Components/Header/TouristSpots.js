@@ -1,20 +1,30 @@
 import React from 'react'
-import Carousel from 'react-elastic-carousel';
+import Marquee from 'react-fast-marquee'
 import tp from './touristspots.json';
 import './TouristSpots.css';
-// import Cards from '../Cards';
-const breakpoints =[
-    { itemsToShow: 4}
-]
 
 const TouristSpots = () => {      
   return (
     <div>
-        <h1>Places to Visit at Jodhpur</h1>
-     <Carousel breakPoints={breakpoints}  enableAutoPlay={true}>
-      
-       {tp.places.map(item => <div key={item.img} className="spots-slideshow"><img src={item.img} alt="" /><dir>{item.name}</dir></div>)}
-      </Carousel>
+        <h1 className='spotTitle'>Places to Visit at Jodhpur</h1>
+
+<Marquee pauseOnHover={true} speed={10} gradientColor={[255,255,255]}>
+            {
+                tp.places.map((det)=>{
+                    return(
+                      <>
+                      <div className='spotSlide'>
+                            <img src={det.img} alt={det.Name} key={det.logo}/>
+                            {det.name}
+
+                      </div>
+
+                            </>
+                    )
+                })
+            }
+
+        </Marquee>
     </div>
   )
 }
