@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import college_Info from './college-info.json'
-import SponsorsBanner from '../Sponsors/Sponsors_banner'
+// import SponsorsBanner from '../Sponsors/Sponsors_banner'
 const Footer = (props) => {
     return (
         <div>
@@ -68,10 +68,10 @@ const Footer = (props) => {
 
                     <section className="">
                         <div className="d-flex justify-content-center align-items-center">
-                            <div>
+                            {/* <div>
                                 <h4>Our Sponsors</h4>
                                 <SponsorsBanner />
-                            </div>
+                            </div> */}
                         </div>
                     </section>
 

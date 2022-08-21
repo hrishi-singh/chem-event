@@ -9,8 +9,7 @@ import { useAuth } from "../contexts/AuthContext";
 const Team = () => {
     const currentUser = useAuth();
     return (
-        <div className="container my-3 teamcontainer">
-            {/* <h1>Our Team {currentUser.currentUser===null? 'ABC' : alert(JSON.stringify(currentUser))}</h1> */}
+        <div className="teamcontainer">
             <Cards title={"Patrons"} por={teams_List.patrons} colm={6} className={'teamcard my-3'}/>
             <Cards title={"Co-Patrons"} por={teams_List.copatrons} colm={4} className={'teamcard my-3'}/>
             <Cards title={"Faculty Members"} por={teams_List.Faculties} colm={3} className={'teamcard my-3'}/>
