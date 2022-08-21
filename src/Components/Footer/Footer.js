@@ -58,8 +58,6 @@ const Footer = (props) => {
                                 <h6>
                                     <hr/>
                                     E-mail : chemesorptioniitj@gmail.com <br/><br/>
-                                    vikky@iitj.ac.in
-
                                 </h6> 
                             </div>
                         </div>
@@ -68,10 +66,6 @@ const Footer = (props) => {
 
                     <section className="">
                         <div className="d-flex justify-content-center align-items-center">
-                            {/* <div>
-                                <h4>Our Sponsors</h4>
-                                <SponsorsBanner />
-                            </div> */}
                         </div>
                     </section>
 

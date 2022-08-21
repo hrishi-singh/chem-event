@@ -5,7 +5,7 @@ import About from '../About/About';
 import './Header.css';
 import Spots from './TouristSpots'
 import Welcome from './Slider1.js'
-import HoD from './Slider2.js'
+import Presentation from './Slider2.js'
 
  const Header = () => {
 
@@ -15,7 +15,7 @@ import HoD from './Slider2.js'
     <>
     <Carousel className='slides'>
       <div><Welcome EventName="Chem-E-Sorption" /></div>
-      <div><HoD/></div>
+      <div><Presentation/></div>
     </Carousel>
     <About EventName="Chem-E-Sorption"/>
     <Spots/>
