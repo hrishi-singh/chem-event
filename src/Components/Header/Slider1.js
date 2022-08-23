@@ -14,7 +14,7 @@ const Slider1= (props) => {
         console.log(container);
       };
   return (
-    <div className='welcome'>
+    <section className='welcome'>
       <div id='particles-js' className='container'>
       <img src='https://mir-s3-cdn-cf.behance.net/project_modules/fs/8cca6a97228621.5fd99b2882636.png' alt="" className='thumbnail-img1'/>
        <span>
@@ -96,12 +96,13 @@ const Slider1= (props) => {
         <p>Brings to you</p>
        </span>
           <h1>{props.EventName}</h1>
-          <h4> Theme: Sustainable chemical engineering </h4>
+          <h5> Theme: Sustainable Chemical Engineering </h5>
         
         <Link id='Register-btn' to='/registration'>Register Now!</Link>
-        <p> Last date to register: 10th September 2022. <p>
+        <h6> Last date to register: <br/>
+       <h4> 10th September 2022.</h4></h6>
         </div>        
-    </div>
+    </section>
   )
 }
 console.log(Particles.speed);

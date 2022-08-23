@@ -12,7 +12,7 @@
 .about p{
     /* display: inline-block; */
     margin:10px;
-    padding: 0px 80px;
+    padding: 0px 60px;
     /* width: 60vw; */
     display: flex;
     justify-content: space-around;

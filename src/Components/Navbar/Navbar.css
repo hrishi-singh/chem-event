@@ -16,6 +16,7 @@
     background-color: #1b2430ea;
     position: sticky;
     padding: 0px 10px;
+    z-index:2;
 }
 .navbar ul{
     display: flex;
@@ -38,4 +39,9 @@
 .navbar h1{
 font-family: 'poppins' 'sans-serif';
 color: white;
+}
+@media screen and (max-width: 990px){
+    .navbar-collapse ,.collapse ,.show{
+        background: black;
+    }
 }

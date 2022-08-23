@@ -27,7 +27,7 @@ function CollapsibleExample() {
   }
 
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
+    <Navbar  collapseOnSelect expand="lg" bg="dark" variant="dark">
       {/* <Container> */}
         <Navbar.Brand href="#home" className='nav-logo'>
           <img src="https://i.ibb.co/PTBCt3X/image.png" alt="" />
@@ -63,13 +63,13 @@ function CollapsibleExample() {
             }
             
           </Nav>
-        </Navbar.Collapse>
             <Navbar.Brand id='college-logo'  className='nav-logo'>
             <img src="https://media-exp1.licdn.com/dms/image/C560BAQG2cySl5XOSeQ/company-logo_200_200/0/1619434038370?e=2147483647&v=beta&t=qIJfz8uubOhse3tqpCvxWB9bPtE7xuMnEe4JrqGbipY" alt="" />
         </Navbar.Brand>
         <Navbar.Brand  className='nav-logo'>
             <img src="https://www.indianchamber.org/wp-content/uploads/2019/03/IIChE-LOGO-PNG-300x300.png" alt="" />
         </Navbar.Brand>
+        </Navbar.Collapse>
       {/* </Container> */}
     </Navbar>
   );
