@@ -13,12 +13,12 @@ import Presentation from './Slider2.js'
   return (
     // code for Header Welcome 
     <>
-    <Carousel className='slides'>
       <div><Welcome EventName="Chem-E-Sorption" /></div>
-      <div><Presentation/></div>
-    </Carousel>
     <About EventName="Chem-E-Sorption"/>
     <Spots/>
+    {/* <Carousel className='slides'>
+      <div><Presentation/></div>
+    </Carousel> */}
     </>
   )
 }
