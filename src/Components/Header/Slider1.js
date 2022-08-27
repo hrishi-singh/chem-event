@@ -19,6 +19,7 @@ const Slider1= (props) => {
       <img src='https://mir-s3-cdn-cf.behance.net/project_modules/fs/8cca6a97228621.5fd99b2882636.png' alt="" className='thumbnail-img1'/>
        <span>
         <h4>Department of Chemical Engineering</h4>
+        <h4> In collaboration with IICHE </h4>
       
           {/* <Particles
             id="tsparticles"
