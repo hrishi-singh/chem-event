@@ -98,9 +98,9 @@ const Slider1= (props) => {
        </span>
           <h1>{props.EventName}</h1>
           <h5> Theme: Sustainable Chemical Engineering </h5>
-        
+          <h6> Last date to register: 10th September 2022. </h6>
         <Link id='Register-btn' to='/registration'>Register Now!</Link>
-        <h6> Last date to register: 10th September 2022. </h6>
+        
         </div>        
     </section>
   )
