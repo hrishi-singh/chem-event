@@ -66,14 +66,18 @@
             "text":"This competition races cars powered by chemical reactions. The only goal - push the frontiers of engineering marvel to design a car that launches off to victory.",
             "link":"https://docs.google.com/forms/d/1JCl7Ggwgyxnqd-PsdRSmgikcHQRAC5PirozBnEC2xBE/edit?usp=sharing",
             "rulebook": "https://docs.google.com/document/d/1JLfdn3ZHFxDFVvZU418pslUReQQSooqNRy3BlYChI5A/edit?usp=sharing"
-        },
+        }
+        
+    ],
+    
+    "Informals":[
         {
             "img": "https://i.ibb.co/RH4pc7w/no-img.png",
             "Name": "Treasure Hunt",
             "text":"A Fun and informal event to conclude the day.",
             "rulebook": "https://docs.google.com/document/d/1Jn1z4h6W20skW_4GLY1TkV6CJbee7_FD6QFC_YK0UIA/edit?usp=sharing"
         }
-
+        
     ]
 
 }
