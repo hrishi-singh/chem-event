@@ -7,11 +7,9 @@
 }
 .regbody{
   height: 100vh;
-  /* max-height: 70%; */
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 10px; */
   background: rgba(0,0,0,0.7);
 }
 .regcotainer{
@@ -22,8 +20,6 @@
   padding: 10px 30px;
   border-radius: 5px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.15);
-    /* position:relative;
-    top: 50px; */
   -webkit-transform:scale(0.9);
   -moz-transform:scale(0.9);
   -ms-transform:scale(0.9);
@@ -37,17 +33,6 @@ padding-bottom: 10px;
   position: relative;
   text-align: center;
 }
-/* .regcotainer .regtitle::before{
-  
-  regcontent: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 3px;
-  width: 30px;
-  border-radius: 5px;
-  ;
-} */
 .regcontent form .user-details{
   float: left;
   display: flex;
@@ -81,24 +66,18 @@ form .input-box span.details{
 .user-details .input-box input:valid{
   border-color: #226089;
 }
- /* form .gender-details .gender-title{
-  float: left;
-  font-size: 17px;
-  font-weight: 500;
-  position: relative;
-  padding: 40px;
- } */
  form .category{
    display: flex;
    width: 80%;
    margin: 5px 0 ;
-   justify-content: space-between;
+  justify-content: flex-start;
    padding: 1px;
  }
  form .category label{
    display: flex;
    align-items: center;
    cursor: pointer;
+   margin : 1px 8px;
  }
  form .category label .dot{
   height: 18px;
@@ -110,8 +89,7 @@ form .input-box span.details{
   transition: all 0.3s ease;
 }
  #dot-1:checked ~ .category label .one,
- #dot-2:checked ~ .category label .two,
- #dot-3:checked ~ .category label .three{
+ #dot-2:checked ~ .category label .two{
    background: #226089;
    border-color: #d9d9d9;
  }
@@ -120,7 +98,6 @@ form .input-box span.details{
  }
  form .regbutton{
    height: 45px;
-   /* margin: 35px 0; */
  }
  form .regbutton input{
    height: 100%;
@@ -137,16 +114,12 @@ form .input-box span.details{
    
  }
  form .regbutton input:hover{
-  /* transform: scale(0.99); */
   background-color:  #4592af;
   color: whitesmoke;
-
   }
 .regbutton{
   display:flex ;
   flex-direction: column;
-  /* justify-content: center; */
-  /* width: 15vw; */
 }
 .reg-register{    
   display: flex;
@@ -154,9 +127,10 @@ form .input-box span.details{
   width: auto;
 
 }
- @media(max-width: 584px){
+ @media(max-width: 375px){
  .regcotainer{
   max-width: 100%;
+  max-height:fit-content;
 }
 form .user-details .input-box{
     margin-bottom: 15px;
@@ -171,6 +145,9 @@ form .user-details .input-box{
   }
   .user-details::-webkit-scrollbar{
     width: 5px;
+  }
+  .regcotainer .regcontent .category{
+    flex-direction: column;
   }
   }
   @media(max-width: 459px){
@@ -197,12 +174,6 @@ form .accomodation-details .accomodation-title, .student-title, form .student-de
  .two3{
   display: none;
  }
-/* 
- {
-  font-size: 17px;
-  font-weight: 500;
-  position: relative;
- } */
  
  #dot-111:checked ~ .category label .one11,
  #dot-222:checked ~ .category label .two22{
@@ -216,5 +187,7 @@ form .accomodation-details .accomodation-title, .student-title, form .student-de
 
 ::selection {
   background: #4592AF;
-
+}
+.form{
+  display: flex;
 }
