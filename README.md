@@ -1,17 +1,20 @@
-# Chemical Event Website
+# Chem-E-sorption  IITJ Website
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+The Project is made by:
+Hrishi Raj Singh (coordinator)
+Nimish Purohit (co-cordinator)
+Shreya pagaria (co-cordinator)
 ## Available Scripts
 
 In the project directory, you can run:
 
 ### `npm run start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 You may also see any lint errors in the console.
 
 ## Learn More
@@ -37,6 +40,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
+This Website is Deployed on : Netlify and its domain is on Godaddy.com
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 

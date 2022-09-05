@@ -5,7 +5,8 @@
     height: 400px;
     display: flex;
 
-    background-image: url('./banner_temp.png');
+    /* background-image: url('./banner_temp.png'); */
+    background-image: url('https://i.ibb.co/kS7jYQS/ezgif-com-gif-maker-8.gif');
     background-size: cover;
     justify-content: center;
     align-items: center;
