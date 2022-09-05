@@ -74,19 +74,19 @@
             "rulebook": "https://docs.google.com/document/d/1Jn1z4h6W20skW_4GLY1TkV6CJbee7_FD6QFC_YK0UIA/edit?usp=sharing"
         }
 
-    ],
-    "ClosingRemarks":[
-        {
-            "img": "https://i.ibb.co/RH4pc7w/no-img.png",
-            "Name": "",
-            "text":""
-        },
-        {
-            "img": "https://i.ibb.co/RH4pc7w/no-img.png",
-            "Name": "",
-            "text":""
-        }
-
     ]
+   // "ClosingRemarks":[
+     //   {
+       //     "img": "https://i.ibb.co/RH4pc7w/no-img.png",
+         //   "Name": "",
+           // "text":""
+        //},
+        //{
+          //  "img": "https://i.ibb.co/RH4pc7w/no-img.png",
+            //"Name": "",
+            //"text":""
+        //}
+
+    //]
 
 }
