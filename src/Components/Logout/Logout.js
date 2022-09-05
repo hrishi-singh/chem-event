@@ -16,7 +16,7 @@ async function Logout ()  {
     
     try {
         await logout()
-        history("/chem-event")
+        history("/")
     } catch {
         setError("Failed to log out")
     }
