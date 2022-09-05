@@ -1,7 +1,7 @@
 import './RegistrationV1.css'
 import '../Core-team/Core-team.css'
 
-// import axios from 'axios';
+import axios from 'axios';
 import React, { useRef, useState } from "react"
 // import { Form, Button, Card, Alert } from "react-bootstrap"
 import { useAuth } from "../contexts/AuthContext"
@@ -17,7 +17,7 @@ import {useForm} from "react-hook-form";
 
 
 const RegistrationV1 = () => {
-  const {register, formState:{errors}} = useForm();
+  // const {register, formState:{errors}} = useForm();
   const[name,setname]=useState('');
   const [email,setemail]=useState('');
   const [phone,setphone]=useState('');
@@ -25,25 +25,25 @@ const RegistrationV1 = () => {
   const [gender,setgender]=useState(''); 
   const [accomodation,setaccomodation]=useState(''); 
   const [enrolled,setenrolled]=useState(''); 
-const handleSubmit=(e)=>{
-  e.preventDefault();
-  const data ={
-    name :name,
-    email: email,
-    phone : phone,
-    college : college,
-    gender: gender,
-    accomodation:accomodation,
-    enrolled : enrolled
-  }
-  axios.post('https://sheet.best/api/sheets/886f40f2-9c18-4076-b56f-d882fc59185e',data).then((response)=>{
-    console.log(response);
-    setemail('');
-    setcollege('');
-    setname('');
-    setphone('');
-  })
-}
+// const handleSubmit=(e)=>{
+//   e.preventDefault();
+//   const data ={
+//     name :name,
+//     email: email,
+//     phone : phone,
+//     college : college,
+//     gender: gender,
+//     accomodation:accomodation,
+//     enrolled : enrolled
+//   }
+//   axios.post('https://sheet.best/api/sheets/886f40f2-9c18-4076-b56f-d882fc59185e',data).then((response)=>{
+//     console.log(response);
+//     setemail('');
+//     setcollege('');
+//     setname('');
+//     setphone('');
+//   })
+// }
   
 
   const {signup}  = useAuth()
@@ -58,7 +58,24 @@ const handleSubmit=(e)=>{
   
   async function handleSubmit(e) {
 
-    e.preventDefault()
+    e.preventDefault();
+    const data ={
+      name :name,
+      email: email,
+      phone : phone,
+      college : college,
+      gender: gender,
+      accomodation:accomodation,
+      enrolled : enrolled
+    }
+    axios.post('https://sheet.best/api/sheets/886f40f2-9c18-4076-b56f-d882fc59185e',data).then((response)=>{
+      console.log(response);
+      setemail('');
+      setcollege('');
+      setname('');
+      setphone('');
+    })
+
     try {
       
       setError("")
@@ -66,16 +83,16 @@ const handleSubmit=(e)=>{
       
       const val = await signup(e.target[2].value, e.target[4].value)
       //await login(emailRef.current.value, passwordRef.current.value)
-      alert("hi")
+      alert("Successfully Registered !")
       const db = getDatabase();
       set(ref(db, 'users/' + val.user.uid), {
-        username: e.target[0].value,
-        institute_name: e.target[1].value,
-        email: e.target[2].value ,
-        phone: e.target[3].value,
-        gender: e.target[6].value,
-        accomodation: e.target[7].value,
-        enrolled_in:e.target[8].value
+      name :name,
+      email: email,
+      phone : phone,
+      college : college,
+      gender: gender,
+      accomodation:accomodation,
+      enrolled : enrolled
         
       })
 

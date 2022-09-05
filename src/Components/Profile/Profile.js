@@ -44,11 +44,13 @@ function Profile(){
         <div>
 {/* <Cards title={"User Profile"} por={userData} colm={3} className={'teamcard my-3'}/> */}
 
-        <h3>Username : {userData.username}</h3>
-        <h3>Institute name : {userData.institute_name}</h3>
+        <h3>Username : {userData.name}</h3>
+        <h3>Institute name : {userData.college}</h3>
         <h3>Accomodation : {userData.accomodation}</h3>
+        <h3>Gender : {userData.gender}</h3>
         <h3>Phone no. : {userData.phone}</h3>
         <h3>Email : {userData.email}</h3>
+        <h3>Enrolled In : {userData.enrolled}</h3>
         </div>
      );
 }            
