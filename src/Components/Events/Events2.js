@@ -15,7 +15,6 @@ const Events2 = () => {
         <Cards title={"Lecture Series"} por={event_List.LectureSeries} btn={false} colm={4} tilt={false} className={'eventcard my-3'}/>
         <Cards title={"Poster Presentation"} por={event_List.PosterPresentation} btn={true} tilt={false} colm={6} className={'eventcard my-3'}/>
         <Cards title={"Events/Competitions"} por={event_List.EventsCompetitions} btn={false} tilt={false} colm={4} className={'eventcard my-3'}/>
-        <Cards title={"Prize Distribution"} por={event_List.ClosingRemarks} btn={false} colm={6} tilt={false} className={'eventcard my-3'}/>
         </section>
 
         
