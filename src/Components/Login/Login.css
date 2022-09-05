@@ -46,6 +46,7 @@
     .login input{
       margin: 0px;
       padding: 0px;
-      max-width: 30vw;
+      max-width: 40vw;
+      overflow-wrap: normal;
     }
   }
