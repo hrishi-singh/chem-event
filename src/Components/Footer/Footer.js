@@ -62,14 +62,6 @@ const Footer = (props) => {
                             </div>
                         </div>
                     </section>
-                    <hr className="mb-2" />
-
-                    <section className="">
-                        <div className="d-flex justify-content-center align-items-center">
-                        </div>
-                    </section>
-
-                    <hr className="mb-2" />
                 </div>
 
                 <div
