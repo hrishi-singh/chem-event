@@ -42,10 +42,10 @@
     backdrop-filter: blur(5 px);
   }
 
-  @media(max-width: 375px){
+  @media(max-width: 575px){
     .login input{
       margin: 0px;
       padding: 0px;
-      width: 30vw;
+      max-width: 30vw;
     }
   }
