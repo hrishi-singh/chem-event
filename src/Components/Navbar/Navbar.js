@@ -8,7 +8,7 @@ import { useAuth } from "../contexts/AuthContext";
 
 function CollapsibleExample() {
   const currentUser = useAuth();
-  const [setError] = useState("")
+  const [error,setError] = useState("")
   const {  logout } = useAuth()  
   const history = useNavigate()  
    
@@ -16,12 +16,12 @@ function CollapsibleExample() {
   async function handleClick(){
     
     setError("")
-    
+
     try {
         await logout()
         history("/chem-event")
     } catch {
-        alert("cannot")
+        alert("Cannot logout!")
         setError("Failed to log out")
     }
   }
