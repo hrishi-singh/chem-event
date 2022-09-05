@@ -27,9 +27,8 @@ function Login () {
   const  {currentUser}  = useAuth()
 
   async function handleSubmit(e) {
-    document.getElementById("formlogin").reset();
     e.preventDefault()
-
+    
     try {
       
       setError("")
@@ -38,15 +37,16 @@ function Login () {
       const val = await login(e.target[0].value, e.target[1].value)
       //await login(emailRef.current.value, passwordRef.current.value)
       history("/")
-     
-
+      
+      
     } 
     catch(error) {
-
+      
       alert(error)
       setError("Failed to log in")
     }
     setLoading(false)
+    document.getElementById("formlogin").reset();
   }
 
   return (

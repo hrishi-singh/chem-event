@@ -78,7 +78,7 @@ function Profile() {
       </Card> */}
        <div class="profilecard" data-tilt>
                 {/* <img src="" alt=""/> */}
-                <img src="https://i.pinimg.com/564x/2a/18/5a/2a185a09ddedd2db1a3d34b6ce211557.jpg" alt="" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-IpIPYsZ4B04ZB632wIBmK1zBg1LzGCXMoN_W4E16GBV3fIxynzR7mRoSRQU2qkTYUXk&usqp=CAU" alt="" />
                 <div className="profile-box">
       <p> Name : <spa>{userData.name}</spa></p>
       <p>Institute name : {userData.college}</p>
