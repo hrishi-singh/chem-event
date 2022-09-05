@@ -1,0 +1,43 @@
+#loginbtn{
+    background-color:  #4592af;
+    color: whitesmoke;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 20px;
+    margin: 10px;
+    }
+.login input{
+    margin: 8px 0px;
+    border-radius: 8px;
+    padding: 0px 4px;
+}
+  .loginbody{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: rgb(0,0,0,0.7); */
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.776), rgba(0, 0, 0, 0.924)), url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6ad32186837293.5daef9c64506e.gif');
+    background-position: center;
+  }
+
+  .loginbody .title{
+    font-size: 1.5rem;
+    font-family: 'Roboto', 'sans-serif';
+  }
+  .loginform{
+    width: 100%;
+    margin: 10px;
+    max-width: 250px;
+    max-height: 565px;
+    color: #FFF;
+    text-align: center;
+    padding: 20px 25px;
+    border: 1px solid rgba(255,255,255,0.3);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.459);
+    backdrop-filter: blur(5 px);
+  }

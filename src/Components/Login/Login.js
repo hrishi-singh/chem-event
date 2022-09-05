@@ -4,8 +4,7 @@ import {useAuth} from '../contexts/AuthContext';
 import {useForm} from "react-hook-form";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import {ref} from "firebase/database";
-import { getDatabase, set } from "firebase/database";
+import './Login.css';
 import {useNavigate} from 'react-router-dom';
 
 function Login () {
@@ -28,6 +27,7 @@ function Login () {
   const  {currentUser}  = useAuth()
 
   async function handleSubmit(e) {
+    document.getElementById("formlogin").reset();
     e.preventDefault()
 
     try {
@@ -37,8 +37,8 @@ function Login () {
       
       const val = await login(e.target[0].value, e.target[1].value)
       //await login(emailRef.current.value, passwordRef.current.value)
-
       history("/")
+     
 
     } 
     catch(error) {
@@ -46,27 +46,29 @@ function Login () {
       alert(error)
       setError("Failed to log in")
     }
-
     setLoading(false)
   }
 
   return (
-    <div className='regbody'>
-    <p className="title">Registration</p>
+    <div className='loginbody'>
+      <div className="loginform">
+    <p className="title"><h3>Login</h3></p>
 
-    <form className="reg" onSubmit={handleSubmit}>
+    <form className="login" id='formlogin' onSubmit={handleSubmit} autocomplete="off">
 
     
-      <input type="email"  placeholder="Email"{...register("email",{required: true})}/>
+      <input type="email" id='emailinput' placeholder="Email"{...register("email",{required: true})}/>
       {errors.email && <span style={{color:"red"}}>Email is mandatory</span>}
       
       <div className="Pass">
-        <input type="password" placeholder="Password"  {...register("password",{required: true})}/>
+        <input type="password" id='pwdinput'  placeholder="Password"  {...register("password",{required: true})}/>
      </div>
 
       <input type={"submit"}
-        style={{backgroundColor: '#a1eafb'}} />
+        id='loginbtn' />
     </form>
+      </div>
+
     <div className="particles">  
             <Particles
             id="tsparticles"
@@ -104,7 +106,7 @@ function Login () {
                   color: "#ffffff",
                   distance: 100,
                   enable: true,
-                  opacity: 1,
+                  opacity: 0.01,
                   width: 1,
                 },
                 collisions: {
@@ -124,7 +126,7 @@ function Login () {
                 number: {
                   density: {
                     enable: true,
-                    area: 800,
+                    area: 600,
                   },
                   value: 80,
                 },

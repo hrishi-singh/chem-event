@@ -1,58 +1,98 @@
-import React, { useEffect,useState } from 'react';
-import {useAuth} from '../contexts/AuthContext'
-import { getDatabase,ref, onValue} from "firebase/database";
-// import {doc,getDoc} from 'firebase/firestore'
-// import Cards from '../Cards';
+import React, { useEffect, useState } from 'react';
+import { useAuth } from '../contexts/AuthContext'
+import { getDatabase, ref, onValue } from "firebase/database";
+import './Profile.css'
 
-function Profile(){
- 
+function Profile() {
 
-    const  [userData, setUserData] = useState({});
-    const currentUser = useAuth();
-    const db = getDatabase();
-    useEffect(() => {
-        try {
-          //getting previously saved data
-          // console.log({ SelectedCaseDetails });
-          const getData = async () => {
-            const docRef = ref(
-              db,
-             'users/'+currentUser.currentUser.uid
-            );
-            //alert(docRef);
-            onValue(docRef,(snapshot) => {
-                const data = snapshot.val();
-                //alert(JSON.stringify(data));
-                setUserData(data);
-                }
-                , (errorObject) => {
-                    console.log('The read failed: ' + errorObject.name);} 
-            );
-           
-            
-          };
-          getData();
-        } catch (error) {
-          console.log({ error });
+
+  const [userData, setUserData] = useState({});
+  const currentUser = useAuth();
+  const db = getDatabase();
+  useEffect(() => {
+    try {
+      //getting previously saved data
+      // console.log({ SelectedCaseDetails });
+      const getData = async () => {
+        const docRef = ref(
+          db,
+          'users/' + currentUser.currentUser.uid
+        );
+        //alert(docRef);
+        onValue(docRef, (snapshot) => {
+          const data = snapshot.val();
+          //alert(JSON.stringify(data));
+          setUserData(data);
         }
-        
-        
-         }, []);
+          , (errorObject) => {
+            console.log('The read failed: ' + errorObject.name);
+          }
+        );
 
-    return(
 
-        <div>
-{/* <Cards title={"User Profile"} por={userData} colm={3} className={'teamcard my-3'}/> */}
+      };
+      getData();
+    } catch (error) {
+      console.log({ error });
+    }
 
-        <h3>Username : {userData.name}</h3>
-        <h3>Institute name : {userData.college}</h3>
-        <h3>Accomodation : {userData.accomodation}</h3>
-        <h3>Gender : {userData.gender}</h3>
-        <h3>Phone no. : {userData.phone}</h3>
-        <h3>Email : {userData.email}</h3>
-        <h3>Enrolled In : {userData.enrolled}</h3>
+
+  }, []);
+
+  return (
+<div className='profilesection'> 
+  {/* <div className="container profilecon">
+    <div className="imgBx">
+    <img src="https://i.pinimg.com/564x/2a/18/5a/2a185a09ddedd2db1a3d34b6ce211557.jpg" alt="" />
+    </div>
+    <div className="details">
+      <div className="content">
+        <div className="profile-box">
+
+      <p> Username : {userData.name}</p>
+      <p>Institute name : {userData.college}</p>
+            <p>Accomodation : {userData.accomodation}</p>
+            <p>Gender : {userData.gender}</p>
+            <p>Phone no. : {userData.phone}</p>
+            <p>Email : {userData.email}</p>
+            <p>Enrolled In : {userData.enrolled}</p>
         </div>
-     );
-}            
+      </div>
+
+    </div>
+  </div> */}
+ {/* <Card>
+        <Card.Img variant="top" src={"https://www.cumbria.ac.uk/media/staff-profile-images/staff_profile_-generic_350x350px.png"} />
+        <Card.Body>
+          <Card.Title>User Profile</Card.Title>
+          <Card.Text>
+            <p>Username : {userData.name}</p>
+            <p>Institute name : {userData.college}</p>
+            <p>Accomodation : {userData.accomodation}</p>
+            <p>Gender : {userData.gender}</p>
+            <p>Phone no. : {userData.phone}</p>
+            <p>Email : {userData.email}</p>
+            <p>Enrolled In : {userData.enrolled}</p>
+          </Card.Text>
+        </Card.Body>
+      </Card> */}
+       <div class="profilecard" data-tilt>
+                {/* <img src="" alt=""/> */}
+                <img src="https://i.pinimg.com/564x/2a/18/5a/2a185a09ddedd2db1a3d34b6ce211557.jpg" alt="" />
+                <div className="profile-box">
+      <p> Name : <spa>{userData.name}</spa></p>
+      <p>Institute name : {userData.college}</p>
+            <p>Enrolled In : {userData.enrolled}</p>
+            <p>Email : {userData.email}</p>
+            <p>Accomodation : {userData.accomodation}</p>
+            <p>Phone no. : {userData.phone}</p>
+            <p>Gender : {userData.gender}</p>
+        </div>
+
+            </div>
+</div>
+     
+  );
+}
 export default Profile;
 

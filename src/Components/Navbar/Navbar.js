@@ -52,14 +52,14 @@ function CollapsibleExample() {
             }
 
 
-            {currentUser.currentUser!=null &&
-            <button className="nav-link" onClick={handleClick}>Logout</button>
-            
-            }
 
             {currentUser.currentUser!=null &&
             
             <Link className="nav-link" to="/profile">Profile</Link>
+            }
+            {currentUser.currentUser!=null &&
+            <button className="nav-link" id='logoutbtn' onClick={handleClick}>Logout</button>
+            
             }
             
           </Nav>

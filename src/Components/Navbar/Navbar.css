@@ -40,6 +40,11 @@
 font-family: 'poppins' 'sans-serif';
 color: white;
 }
+#logoutbtn{
+    text-decoration: none;
+    background: none;
+    border: none;
+}
 @media screen and (max-width: 990px){
     .navbar-collapse ,.collapse ,.show{
         background: black;

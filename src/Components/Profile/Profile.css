@@ -1,0 +1,100 @@
+.profilesection{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    font-family: 'poppins',sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.776), rgba(0, 0, 0, 0.924)), url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6ad32186837293.5daef9c64506e.gif');
+}
+/* 
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.profilecon{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 900px;
+    height: 600px;
+    background: rgb(202, 202, 202);
+    margin: 20px;
+}
+.container .imgBx{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background: #006dbc;
+}
+.container .imgBx img{
+    position: relative;
+    width: 400px;
+}
+.container .details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+}
+.profile-box{
+    padding: 40px;
+    font-size: 18px;
+    text-align: justify;
+    background: cornflowerblue;
+    position: relative;
+    border-radius: 20px;
+} */
+
+.profilecard{
+    width: 100%;
+    margin: 10px;
+    max-width: 400px;
+    max-height: 565px;
+    color: #3B44F6;
+    text-align: center;
+    padding: 20px 25px;
+    border: 1px solid rgba(255,255,255,0.3);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.459);
+    backdrop-filter: blur(5 px);
+    
+}
+
+.profilecard img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0px 0px;
+}
+.profilecard h3{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.profilecard p{
+    color: #fff;
+    font-size: 20px;
+    margin: 10px auto;
+    max-width: 335px;
+}
+.heading{
+    font-size: 48px;
+    font-weight: 800;
+    color: #000d85;
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
