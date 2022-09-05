@@ -41,3 +41,11 @@
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.459);
     backdrop-filter: blur(5 px);
   }
+
+  @media(max-width: 375px){
+    .login input{
+      margin: 0px;
+      padding: 0px;
+      width: 30vw;
+    }
+  }
