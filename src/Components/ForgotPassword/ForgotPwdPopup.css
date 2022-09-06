@@ -1,0 +1,41 @@
+#resetpwdbtn{
+    text-decoration: none;
+    background: none;
+    border: none;
+    padding: 0px;
+    color: White;
+}
+.ForgotPwdPopupTitle{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    text-align: center;
+}
+.ForgotPwdPopupbody{
+    background: rgba(0, 0, 0, 0.418);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.459);
+    backdrop-filter: blur(5 px);
+
+}
+.modal-content{
+    background: none;
+    border:1px solid white;
+    border-radius: 9px;
+    text-align: center;
+    color: White;
+}
+.btn-close{
+    color: white;
+    background-color: white;
+}
+#pwdchangebtn{
+    border-radius: 20px;
+    border: none;
+    background-color:  #4592af;
+    color: whitesmoke;
+}
+
+#pwdchangebtn:hover{
+    background-color: #355764;
+
+}

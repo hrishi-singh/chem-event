@@ -6,6 +6,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import './Login.css';
 import {useNavigate,Link} from 'react-router-dom';
+import ForgotPwdPopup from '../ForgotPassword/ForgotPwdPopup';
 
 function Login () {
   const {register, formState:{errors}} = useForm();
@@ -67,7 +68,8 @@ function Login () {
       <input type={"submit"}
         id='loginbtn' />
     </form>
-    <Link to='/forgot-password' style={{color:'white'}}> Forgot password?</Link>
+    {/* <Link to='/forgot-password' style={{color:'white'}}> Forgot password?</Link> */}
+    <ForgotPwdPopup/>
       </div>
     
     <div className="particles">  

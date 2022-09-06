@@ -3,8 +3,13 @@
     color: whitesmoke;
     border: none;
     border-radius: 12px;
-    padding: 10px 20px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: none;
     margin: 10px;
+    }
+    #loginbtn:hover{
+      background-color: #355764;
     }
 .login input{
     margin: 8px 0px;
@@ -19,7 +24,7 @@
     align-items: center;
     /* background: rgb(0,0,0,0.7); */
     
-    background: linear-gradient(rgba(0, 0, 0, 0.776), rgba(0, 0, 0, 0.924)), url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6ad32186837293.5daef9c64506e.gif');
+    background: linear-gradient(rgba(0, 0, 0, 0.776), rgba(0, 0, 0, 0.924)), url('https://i.ibb.co/HFnw64Z/ezgif-com-gif-maker-13.gif');
     background-position: center;
   }
 

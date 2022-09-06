@@ -4,10 +4,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
+    height: 90vh;
     font-family: 'poppins',sans-serif;
     background: linear-gradient(rgba(0, 0, 0, 0.776), rgba(0, 0, 0, 0.924)), url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6ad32186837293.5daef9c64506e.gif');
     background-position: center;
+  
 }
 /* 
 .content{

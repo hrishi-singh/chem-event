@@ -7,7 +7,8 @@ import Registration from './Components/Registration/RegistrationV1';
 import Sponsors from './Components/Sponsors/Sponsors';
 import Team from './Components/Core-team/Core-team';
 import Footer from './Components/Footer/Footer';
-import Profile from './Components/Profile/Profile'
+import Profile from './Components/Profile/Profile';
+// import ForgotPwdPopup from './Components/ForgotPassword/ForgotPwdPopup';
 import {
   BrowserRouter as Router,
   Routes,
@@ -31,6 +32,7 @@ function App() {
         <Route path="/login" element={<Login/>}></Route>
         <Route path="/profile" element={<Profile/>}></Route>
         <Route path="/forgot-password" element={<ForgotPassword/>}></Route>
+        {/* <Route path="/forgot-password-popup" element={<ForgotPwdPopup/>}></Route> */}
         </Routes>
         <Footer Name={"Chem-E-sorption"}/>
         </AuthProvider>

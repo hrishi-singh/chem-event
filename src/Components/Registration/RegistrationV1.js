@@ -150,7 +150,7 @@ const RegistrationV1 = () => {
           <input type="radio" name="gender" id="dot-1" required="True" onChange={(e)=>setgender(e.target.value)} value={"Male"}/>
           <input type="radio" name="gender" id="dot-2" required="True"  onChange={(e)=>setgender(e.target.value)} value={"Female"} />
 
-          <span className="gender-title">Gender:  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;</span>
+          <span className="gender-title">Gender:  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;</span>
           <div className="category">
             <label htmlFor="dot-1">
               <span className="dot one" />
