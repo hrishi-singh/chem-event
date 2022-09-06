@@ -14,6 +14,7 @@ import {
   Route
 } from "react-router-dom";
 import { AuthProvider } from './Components/contexts/AuthContext';
+import ForgotPassword from './Components/ForgotPassword/ForgotPassword';
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
         <Route path="/registration" element={<Registration/>}></Route>
         <Route path="/login" element={<Login/>}></Route>
         <Route path="/profile" element={<Profile/>}></Route>
-
+        <Route path="/forgot-password" element={<ForgotPassword/>}></Route>
         </Routes>
         <Footer Name={"Chem-E-sorption"}/>
         </AuthProvider>
