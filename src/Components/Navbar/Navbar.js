@@ -70,7 +70,6 @@ function CollapsibleExample() {
             <img src="https://www.indianchamber.org/wp-content/uploads/2019/03/IIChE-LOGO-PNG-300x300.png" alt="" />
         </Navbar.Brand>
         </Navbar.Collapse>
-      {/* </Container> */}
     </Navbar>
   );
 }

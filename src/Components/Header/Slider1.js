@@ -1,7 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import { useAuth } from "../contexts/AuthContext";
 
 const Slider1= (props) => {
+  const currentUser = useAuth();
+
   return (
     <section className='welcome'>
       <div id='particles-js' className='container'>
@@ -14,12 +17,14 @@ const Slider1= (props) => {
           <h5> Theme: Sustainable Chemical Engineering <br/> </h5>
           <h6> Event Date: <br/></h6>
        <h5> 24th September 2022.<br/></h5>
+       {currentUser.currentUser!=null?"":<>
        <h4>Free Registration for all.
         </h4> 
         <Link id='Register-btn' to='/registration'>Register Now!</Link>
         <h6> Last date to register: <br/>
-       <h4> 17th September 2022.</h4></h6>
-        </div>        
+       <h4> 17th September 2022.</h4></h6> 
+        </>} 
+        </div>      
     </section>
   )
 }
