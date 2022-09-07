@@ -15,7 +15,7 @@ width: auto;
 .welcome, .faculty-slide{
     margin-bottom: 20px;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.8)), url('https://i.ytimg.com/vi/kWHcMeE4C5M/maxresdefault.jpg') ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.95)), url('https://i.ytimg.com/vi/kWHcMeE4C5M/maxresdefault.jpg') ;
     background-size: cover;
 }
 #particles-js{
@@ -42,7 +42,7 @@ width: auto;
     color: black;
     border-radius: 45px;
     cursor: pointer;
-    margin:18px 0px 8px 0px;
+    margin:6px 0px;
     text-decoration: none;
 
 }
@@ -52,7 +52,7 @@ width: auto;
 }
 @media screen and (max-width: 990px){
 #particles-js h1{
-    font-size: 1em;
+    font-size: 0.8em;
 }
 .thumbnail-img1{
     width: 300px;
@@ -60,26 +60,15 @@ width: auto;
 }
 
 #particles-js span,h4{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .about p{
     padding: 0 40px;
 }
 }
+.welcome p{
+    margin: 0px;
+}
 
-/* .faculty-img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-} */
-/* .faculty-img img{
-    margin: 8px;
 
-    border-radius: 50%;
-} */
-/* #dir{
-    height: 120px;
-    width: 120px;
-} */

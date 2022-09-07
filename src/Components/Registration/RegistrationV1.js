@@ -3,16 +3,10 @@ import '../Core-team/Core-team.css'
 
 import axios from 'axios';
 import React, { useRef, useState } from "react"
-// import { Form, Button, Card, Alert } from "react-bootstrap"
 import { useAuth } from "../contexts/AuthContext"
 import {useNavigate} from "react-router-dom"
-// import { Link, useNavigate} from "react-router-dom"
 import {ref} from "firebase/database";
-// import {ref,push,child,update} from "firebase/database";
 import { getDatabase, set } from "firebase/database";
-
-
-import {useForm} from "react-hook-form";
 
 
 
@@ -82,7 +76,6 @@ const RegistrationV1 = () => {
       setLoading(true)
       
       const val = await signup(e.target[2].value, e.target[4].value)
-      //await login(emailRef.current.value, passwordRef.current.value)
       alert("Successfully Registered !")
       const db = getDatabase();
       set(ref(db, 'users/' + val.user.uid), {
@@ -101,7 +94,7 @@ const RegistrationV1 = () => {
     } 
     catch(error) {
 
-      alert(error)
+      alert("Error : Invalid Registration Details.\n Try Again.")
       setError("Failed to create an account")
     }
 
