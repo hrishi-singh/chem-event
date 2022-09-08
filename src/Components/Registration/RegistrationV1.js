@@ -2,22 +2,15 @@ import './RegistrationV1.css'
 import '../Core-team/Core-team.css'
 
 import axios from 'axios';
-import React, { useRef, useState } from "react"
-// import { Form, Button, Card, Alert } from "react-bootstrap"
+import React, { useState } from "react"
 import { useAuth } from "../contexts/AuthContext"
 import {useNavigate} from "react-router-dom"
-// import { Link, useNavigate} from "react-router-dom"
 import {ref} from "firebase/database";
-// import {ref,push,child,update} from "firebase/database";
 import { getDatabase, set } from "firebase/database";
-
-
-import {useForm} from "react-hook-form";
 
 
 
 const RegistrationV1 = () => {
-  // const {register, formState:{errors}} = useForm();
   const[name,setname]=useState('');
   const [email,setemail]=useState('');
   const [phone,setphone]=useState('');
@@ -25,25 +18,7 @@ const RegistrationV1 = () => {
   const [gender,setgender]=useState(''); 
   const [accomodation,setaccomodation]=useState(''); 
   const [enrolled,setenrolled]=useState(''); 
-// const handleSubmit=(e)=>{
-//   e.preventDefault();
-//   const data ={
-//     name :name,
-//     email: email,
-//     phone : phone,
-//     college : college,
-//     gender: gender,
-//     accomodation:accomodation,
-//     enrolled : enrolled
-//   }
-//   axios.post('https://sheet.best/api/sheets/886f40f2-9c18-4076-b56f-d882fc59185e',data).then((response)=>{
-//     console.log(response);
-//     setemail('');
-//     setcollege('');
-//     setname('');
-//     setphone('');
-//   })
-// }
+
   
 
   const {signup}  = useAuth()
@@ -51,7 +26,6 @@ const RegistrationV1 = () => {
   const [error, setError] = useState("")
   const [loading, setLoading] = useState(false)
   const history = useNavigate()
-  //const  {currentUser}  = useAuth()
 
 
 
@@ -68,13 +42,6 @@ const RegistrationV1 = () => {
       accomodation:accomodation,
       enrolled : enrolled
     }
-    axios.post('https://sheet.best/api/sheets/886f40f2-9c18-4076-b56f-d882fc59185e',data).then((response)=>{
-      console.log(response);
-      setemail('');
-      setcollege('');
-      setname('');
-      setphone('');
-    })
 
     try {
       
@@ -82,7 +49,6 @@ const RegistrationV1 = () => {
       setLoading(true)
       
       const val = await signup(e.target[2].value, e.target[4].value)
-      //await login(emailRef.current.value, passwordRef.current.value)
       alert("Successfully Registered !")
       const db = getDatabase();
       set(ref(db, 'users/' + val.user.uid), {
@@ -95,13 +61,21 @@ const RegistrationV1 = () => {
       enrolled : enrolled
         
       })
+      axios.post('https://sheet.best/api/sheets/886f40f2-9c18-4076-b56f-d882fc59185e',data).then((response)=>{
+        console.log(response);
+        setemail('');
+        setcollege('');
+        setname('');
+        setphone('+91');
+      })
+      
 
     history("/")
 
     } 
     catch(error) {
 
-      alert(error)
+      alert("Error : Invalid Registration Details.\n Try Again.")
       setError("Failed to create an account")
     }
 
@@ -150,7 +124,7 @@ const RegistrationV1 = () => {
           <input type="radio" name="gender" id="dot-1" required="True" onChange={(e)=>setgender(e.target.value)} value={"Male"}/>
           <input type="radio" name="gender" id="dot-2" required="True"  onChange={(e)=>setgender(e.target.value)} value={"Female"} />
 
-          <span className="gender-title">Gender:  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;</span>
+          <span className="gender-title">Gender:  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;</span>
           <div className="category">
             <label htmlFor="dot-1">
               <span className="dot one" />

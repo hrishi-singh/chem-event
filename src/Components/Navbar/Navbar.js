@@ -1,11 +1,10 @@
 import React, {useState} from 'react'
 import {useNavigate} from "react-router-dom"
 import './Navbar.css'
+import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Link } from 'react-router-dom';
 import { useAuth } from "../contexts/AuthContext";
-
 function CollapsibleExample() {
   const currentUser = useAuth();
   const [error,setError] = useState("")
@@ -27,8 +26,8 @@ function CollapsibleExample() {
   }
 
   return (
-    <Navbar  collapseOnSelect expand="lg" bg="dark" variant="dark">
-      {/* <Container> */}
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Container>
         <Navbar.Brand href="#home" className='nav-logo'>
           <img src="https://i.ibb.co/PTBCt3X/image.png" alt="" />
         </Navbar.Brand>
@@ -36,26 +35,26 @@ function CollapsibleExample() {
         <Navbar.Collapse id="responsive-navbar-nav">
 
           <Nav className="me-auto">
-            <Link className="nav-link" to="/">Home</Link>
-            <Link className="nav-link" to="/events">Events</Link>
-            <Link className="nav-link" to="/sponsors">Our Sponsors</Link>
-            <Link className="nav-link" to="/team">Core Team</Link>
+            <Nav.Link className="nav-link" href="/">Home</Nav.Link>
+            <Nav.Link className="nav-link" href="/events">Events</Nav.Link>
+            <Nav.Link className="nav-link" href="/sponsors">Our Sponsors</Nav.Link>
+            <Nav.Link className="nav-link" href="/team">Core Team</Nav.Link>
           </Nav>
           <Nav>
 
             {currentUser.currentUser==null &&
-            <Link className="nav-link" to="/registration">Registration</Link>
+            <Nav.Link className="nav-link" href="/registration">Registration</Nav.Link>
             }
 
             {currentUser.currentUser==null &&
-            <Link className="nav-link" to="/login">Login</Link>
+            <Nav.Link className="nav-link" href="/login">Login</Nav.Link>
             }
 
 
 
             {currentUser.currentUser!=null &&
             
-            <Link className="nav-link" to="/profile">Profile</Link>
+            <Nav.Link className="nav-link" href="/profile">Profile</Nav.Link>
             }
             {currentUser.currentUser!=null &&
             <button className="nav-link" id='logoutbtn' onClick={handleClick}>Logout</button>
@@ -64,13 +63,13 @@ function CollapsibleExample() {
             
           </Nav>
             <Navbar.Brand id='college-logo'  className='nav-logo'>
-            <img src="https://media-exp1.licdn.com/dms/image/C560BAQG2cySl5XOSeQ/company-logo_200_200/0/1619434038370?e=2147483647&v=beta&t=qIJfz8uubOhse3tqpCvxWB9bPtE7xuMnEe4JrqGbipY" alt="" />
+            <img src="https://i.ibb.co/HtL57Tb/1619434038370-e-2147483647-v-beta-t-q-IJfz8uub-Ohse3tqp-Cvx-WB9b-Pt-E7xu-Mn-Ee4-Jrq-Gbip-Y.jpg" alt="" />
         </Navbar.Brand>
         <Navbar.Brand  className='nav-logo'>
             <img src="https://www.indianchamber.org/wp-content/uploads/2019/03/IIChE-LOGO-PNG-300x300.png" alt="" />
         </Navbar.Brand>
         </Navbar.Collapse>
-      {/* </Container> */}
+        </Container>
     </Navbar>
   );
 }

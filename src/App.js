@@ -7,7 +7,7 @@ import Registration from './Components/Registration/RegistrationV1';
 import Sponsors from './Components/Sponsors/Sponsors';
 import Team from './Components/Core-team/Core-team';
 import Footer from './Components/Footer/Footer';
-import Profile from './Components/Profile/Profile'
+import Profile from './Components/Profile/Profile';
 import {
   BrowserRouter as Router,
   Routes,

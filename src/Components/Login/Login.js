@@ -6,6 +6,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import './Login.css';
 import {useNavigate,Link} from 'react-router-dom';
+import ForgotPwdPopup from '../ForgotPassword/ForgotPwdPopup';
 
 function Login () {
   const {register, formState:{errors}} = useForm();
@@ -37,9 +38,11 @@ function Login () {
       const val = await login(e.target[0].value, e.target[1].value)
       //await login(emailRef.current.value, passwordRef.current.value)
       history("/")
+      alert("You have logged in successfully.")
+      // console.log(`hello ${currentUser.currentUser.uid} , you have logged in successfully.`)
       
       
-    } 
+    }
     catch(error) {
       
       alert(error)
@@ -52,9 +55,9 @@ function Login () {
   return (
     <div className='loginbody'>
       <div className="loginform">
-    <p className="title"><h3>Login</h3></p>
+    <h3 className="title">Login</h3>
 
-    <form className="login" id='formlogin' onSubmit={handleSubmit} autocomplete="off">
+    <form className="login" id='formlogin' onSubmit={handleSubmit} autoComplete="off">
 
     
       <input type="email" id='emailinput' placeholder="Email"{...register("email",{required: true})}/>
@@ -67,7 +70,7 @@ function Login () {
       <input type={"submit"}
         id='loginbtn' />
     </form>
-    <Link to='/forgot-password' style={{color:'white'}}> Forgot password?</Link>
+    <ForgotPwdPopup/>
       </div>
     
     <div className="particles">  

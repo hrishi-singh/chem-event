@@ -4,6 +4,7 @@
 
     height: 400px;
     display: flex;
+    flex-direction: column;
 
     /* background-image: url('./banner_temp.png'); */
     background-image: url('https://i.ibb.co/kS7jYQS/ezgif-com-gif-maker-8.gif');
@@ -19,7 +20,24 @@
     color: purple;
     z-index: 1;
 }
+#thumbnail h2{
+    font-family: 'Bebas Neue',sans-serif;
+    font-size: 4em;
+}
+#thumbnail a{
+    /* height: 2em; */
+    padding:12px 18px;
+    border-radius: 12px;
+    border: none;
+    background-color:  #2e6072;
+    color: white;
+}
 
+#thumbnail a:hover{
+    background-color: #355764;
+    cursor: pointer;
+
+}
 .box {
     /* background-color: rgba(0, 0, 0, 0.137); */
     position: relative;
@@ -64,4 +82,11 @@
 }
 .eventcard{
     max-width:370px;
+}
+
+#eventTitle{
+    color: #355764;
+    font-family: 'Poppins', cursive;
+    font-weight: 500;
+    font-size: 2em;
 }

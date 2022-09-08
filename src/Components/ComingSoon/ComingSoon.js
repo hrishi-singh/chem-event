@@ -3,9 +3,9 @@ import './ComingSoon.css'
 function ComingSoon(props) {
   return (
     <div className='d-flex align-items-center justify-content-center comingsoon'>
-        <h1>
+      <h1>
         {`${props.title} Coming Soon`}
-            </h1>
+      </h1>
 
     </div>
   )
