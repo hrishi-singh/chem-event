@@ -45,7 +45,6 @@ const RegistrationV1 = () => {
   const [error, setError] = useState("")
   const [loading, setLoading] = useState(false)
   const history = useNavigate()
-  //const  {currentUser}  = useAuth()
 
 
 
@@ -62,13 +61,6 @@ const RegistrationV1 = () => {
       accomodation:accomodation,
       enrolled : enrolled
     }
-    axios.post('https://sheet.best/api/sheets/886f40f2-9c18-4076-b56f-d882fc59185e',data).then((response)=>{
-      console.log(response);
-      setemail('');
-      setcollege('');
-      setname('');
-      setphone('');
-    })
 
     try {
       
@@ -88,6 +80,14 @@ const RegistrationV1 = () => {
       enrolled : enrolled
         
       })
+      axios.post('https://sheet.best/api/sheets/886f40f2-9c18-4076-b56f-d882fc59185e',data).then((response)=>{
+        console.log(response);
+        setemail('');
+        setcollege('');
+        setname('');
+        setphone('+91');
+      })
+      
 
     history("/")
 

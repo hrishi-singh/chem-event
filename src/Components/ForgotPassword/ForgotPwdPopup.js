@@ -20,6 +20,7 @@ const ForgotPwdPopup = () => {
         setLoading(true)
         await resetPassword(emailRef.current.value)
         setMessage("Check your inbox for further instructions")
+        alert("Check your Email Inbox/Spam")
       } catch {
         setError("Failed to reset password")
       }

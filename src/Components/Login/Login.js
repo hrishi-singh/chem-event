@@ -38,9 +38,11 @@ function Login () {
       const val = await login(e.target[0].value, e.target[1].value)
       //await login(emailRef.current.value, passwordRef.current.value)
       history("/")
+      alert("You have logged in successfully.")
+      // console.log(`hello ${currentUser.currentUser.uid} , you have logged in successfully.`)
       
       
-    } 
+    }
     catch(error) {
       
       alert(error)
