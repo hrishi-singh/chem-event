@@ -1,6 +1,10 @@
 # Chem-E-sorption  IITJ Website
+ The Department of Chemical Engineering, IIT Jodhpur is delighted to organize ‘CHEM-E-SORPTION 2022’ with a theme of ‘Sustainable Chemical Engineering’.
+        Chem-E-Sorption is a unique amalgamation of intriguing competitions, invited lectures from academia and industry, panel discussions and other activities.
+        The core idea of this event is to provide a platform to the young talented students of chemical engineering and enthusiastic research scholars with the real
+        world rapidly ever-changing technologies to enhance their knowledge and comprehend advanced technologies in the domain of chemical and interdisciplinary
+        engineering.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 The Project is made by:
 Hrishi Raj Singh (coordinator)
 Nimish Purohit (co-cordinator)
@@ -19,13 +23,8 @@ You may also see any lint errors in the console.
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can learn more about IITJ at [https://www.iitj.ac.in/]
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
 ### Analyzing the Bundle Size
 
@@ -44,6 +43,3 @@ This Website is Deployed on : Netlify and its domain is on Godaddy.com
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
