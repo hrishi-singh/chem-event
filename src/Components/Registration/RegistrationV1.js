@@ -33,6 +33,10 @@ const RegistrationV1 = () => {
   async function handleSubmit(e) {
 
     e.preventDefault();
+    //console.log(e.target[4].value,e.target[5].value)
+    if (e.target[4].value !== e.target[5].value) {
+      return alert("Passwords do not match! ")
+    }
     const data ={
       name :name,
       email: email,
