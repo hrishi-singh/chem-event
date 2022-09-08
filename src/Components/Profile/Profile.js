@@ -80,13 +80,13 @@ function Profile() {
                 {/* <img src="" alt=""/> */}
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-IpIPYsZ4B04ZB632wIBmK1zBg1LzGCXMoN_W4E16GBV3fIxynzR7mRoSRQU2qkTYUXk&usqp=CAU" alt="" />
                 <div className="profile-box">
-      <p> Name : <spa>{userData.name}</spa></p>
-      <p>Institute name : {userData.college}</p>
-            <p>Enrolled In : {userData.enrolled}</p>
-            <p>Email : {userData.email}</p>
-            <p>Accomodation : {userData.accomodation}</p>
-            <p>Phone no. : {userData.phone}</p>
-            <p>Gender : {userData.gender}</p>
+      <p> Name : <spa>{userData? userData.name: 'Loading...'}</spa></p>
+      <p>Institute name : { userData?  userData.college: 'Loading...'}</p>
+            <p>Enrolled In : {userData? userData.enrolled: 'Loading...'}</p>
+            <p>Email : {userData? userData.email: 'Loading...'}</p>
+            <p>Accomodation : {userData? userData.accomodation: 'Loading...'}</p>
+            <p>Phone no. : {userData? userData.phone: 'Loading...'}</p>
+            <p>Gender : {userData? userData.gender: 'Loading...'}</p>
         </div>
 
             </div>
