@@ -63,7 +63,7 @@ function CollapsibleExample() {
             
           </Nav>
             <Navbar.Brand id='college-logo'  className='nav-logo'>
-            <img src="https://media-exp1.licdn.com/dms/image/C560BAQG2cySl5XOSeQ/company-logo_200_200/0/1619434038370?e=2147483647&v=beta&t=qIJfz8uubOhse3tqpCvxWB9bPtE7xuMnEe4JrqGbipY" alt="" />
+            <img src="https://i.ibb.co/HtL57Tb/1619434038370-e-2147483647-v-beta-t-q-IJfz8uub-Ohse3tqp-Cvx-WB9b-Pt-E7xu-Mn-Ee4-Jrq-Gbip-Y.jpg" alt="" />
         </Navbar.Brand>
         <Navbar.Brand  className='nav-logo'>
             <img src="https://www.indianchamber.org/wp-content/uploads/2019/03/IIChE-LOGO-PNG-300x300.png" alt="" />
