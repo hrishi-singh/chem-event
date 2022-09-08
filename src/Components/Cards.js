@@ -38,8 +38,10 @@ function Cards(props) {
                             <Card.Body>
                                 <Card.Title>{det.Name}</Card.Title>
                                 <Card.Text>
-                                    <b>{det.position || det.text}</b><br />
-                                    {det.bio}
+                                    { det.text}<br />
+                                   {props.prize?
+                                    <b>{`Prize Worth : ${det.prize}`}</b>:""}
+                                    
                                 </Card.Text>
                                 {props.rulebookbtn ?
                                 <div className="btn-group mx-3">
@@ -71,5 +73,6 @@ Cards.defaultProps = {
     keyval: "img",
     btn: false,
     rulebookbtn: false,
-    tilt: true
+    tilt: true,
+    prize:false
 }
