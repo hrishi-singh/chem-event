@@ -1,14 +1,16 @@
-  .spotSlide{
+  .spotSlide {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 20px;
   }
-  .spotSlide img{
+
+  .spotSlide img {
     width: 200px;
     height: 100%;
-    padding: 20px;
+    /* padding: 20px; */
   }
-  .spotTitle{
+  .spotTitle {
     color: #3B44F6;
   }
   

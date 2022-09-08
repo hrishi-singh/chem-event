@@ -1,7 +1,6 @@
 import React from 'react'
 import './Footer.css'
 import college_Info from './college-info.json'
-// import SponsorsBanner from '../Sponsors/Sponsors_banner'
 const Footer = (props) => {
     return (
         <div>
@@ -66,7 +65,7 @@ const Footer = (props) => {
                 <div
                     className="text-center p-1">
                         <hr/>
-                    © 2022 Copyright {props.Name}
+                    © 2022 Copyright | {props.Name}
                 </div>
             </footer>
         </div>
