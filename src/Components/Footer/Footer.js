@@ -12,7 +12,7 @@ const Footer = (props) => {
                     <hr />
                     <section className="">
                         <div className="row">
-                            <div className="col-lg-5 col-md-2 mb-4 mb-md-0">
+                            <div className="col-lg-4 col-md-mb-0 mb-md-0">
                                 <h2 className="text-uppercase">{props.Name}</h2>
 
                                 <p>
@@ -26,7 +26,7 @@ const Footer = (props) => {
                             </div>
 
 
-                            <div className="col-lg-3 col-md-6 mb-4 mb-md-0 quick-links">
+                            <div className="col-lg-4 col-md-mb-0 mb-md-0 quick-links">
                                 <h5 className="text-uppercase">Quick Links</h5>
                                 <ul className="list-unstyled mb-3">
 
@@ -53,10 +53,9 @@ const Footer = (props) => {
                                 }
                             </div>
 
-                            <div className="col-lg-2 col-md-6 mb-4 mb-md-0 contact-link">
+                            <div className="col-lg-4 col-md-mb-0 mb-md-0 contact-link">
                                 <h5 className="text-uppercase">Contact Us</h5>
                                 <h6>
-                                    <hr/>
                                     E-mail : chemesorptioniitj@gmail.com <br/><br/>
                                 </h6> 
                             </div>
@@ -66,6 +65,7 @@ const Footer = (props) => {
 
                 <div
                     className="text-center p-1">
+                        <hr/>
                     © 2022 Copyright {props.Name}
                 </div>
             </footer>

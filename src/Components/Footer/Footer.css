@@ -3,6 +3,7 @@ footer{
     padding: 0px;
     margin: 0px;
     max-width: 100vw;
+    color: white;
 }
 .quick-links{
     justify-content: space-between;
@@ -12,4 +13,8 @@ footer{
 .quick-links ul li a{
 text-decoration: none;
 padding: 12px 0px;
+}
+.col{
+    display: flex;
+    justify-content: space-evenly;
 }

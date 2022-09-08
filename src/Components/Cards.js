@@ -59,7 +59,7 @@ function Cards(props) {
     })
     return (
         <div className="row">
-            <h3 className="container my-3">{props.title}</h3>
+            <h3 className="container my-3" id='eventTitle'>{props.title}</h3>
             {mapping}
         </div>
     )

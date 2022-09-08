@@ -84,7 +84,9 @@
     max-width:370px;
 }
 
-/* #eventslists .title{
-    color: #3B44F6;
-    font-family: 'Bebas Neue', cursive;
-} */
+#eventTitle{
+    color: #355764;
+    font-family: 'Poppins', cursive;
+    font-weight: 500;
+    font-size: 2em;
+}
