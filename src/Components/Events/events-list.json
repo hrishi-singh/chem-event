@@ -24,14 +24,8 @@
 
     "LectureSeries":[
         {
-            "img": "https://i.ibb.co/1XGwLvm/Whats-App-Image-2022-08-20-at-8-17-51-PM.jpg",
-            "Name": " ",
-            "text":"",
-            "link": "link to their profile"
-        },
-        {
             "img": "https://i.ibb.co/B4QnHS2/Whats-App-Image-2022-08-20-at-8-18-16-PM.jpg",
-            "Name": "",
+            "Name": "Lecture by industry expert",
             "text":"",
             "link": "link to their profile"
         },

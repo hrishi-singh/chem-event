@@ -19,13 +19,14 @@ const ForgotPwdPopup = () => {
         setError("")
         setLoading(true)
         await resetPassword(emailRef.current.value)
-        setMessage("Check your inbox for further instructions")
-        alert("Check your Email Inbox/Spam")
+        setMessage("Check your Email inbox / spam for Password reset link")
       } catch {
         setError("Failed to reset password")
       }
   
       setLoading(false)
+      setShow(false)
+
     }
 
 
@@ -40,7 +41,7 @@ const ForgotPwdPopup = () => {
     </button>
     {error && <Alert variant="danger">{error}</Alert>}
           {message && <Alert variant="success">{message}</Alert>}
-    <Modal show={show} onHide={handleClose}>
+    <Modal show={show} id='popup' onHide={handleClose}>
       <Modal.Header  className="ForgotPwdPopupTitle" closeButton>
         <Modal.Title>Forgot Password ?</Modal.Title>
       </Modal.Header>
@@ -56,7 +57,7 @@ const ForgotPwdPopup = () => {
             />
           </Form.Group>
         </Form>
-        <Button disabled={loading} id='pwdchangebtn' onClick={handleClose} type="submit">
+        <Button disabled={loading} id='pwdchangebtn' onClick={handleSubmit} type="submit">
           Reset Password
         </Button>
 

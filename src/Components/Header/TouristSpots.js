@@ -14,7 +14,7 @@ const TouristSpots = () => {
                     return(
                       <>
                       <div className='spotSlide'>
-                            <img src={det.img} alt={det.Name} key={det.logo}/>
+                            <img src={det.img} alt={det.Name} key={det.img}/>
                             {det.name}
 
                       </div>

@@ -21,8 +21,8 @@ const Events2 = () => {
         </section>
         <section id='eventslists'>
         <Cards title={"Aarambh"} por={event_List.AARAMBH} colm={6} tilt={false} className={'eventcard my-3'}/>
-        <Cards title={"Lecture Series"} por={event_List.Keynote} colm={4} tilt={false} className={'eventcard my-3 eventTitle'}/>
-        <Cards title={""} por={event_List.LectureSeries} colm={4} tilt={false} className={'eventcard my-3 eventTitle'}/>
+        <Cards title={"Lecture Series"} por={event_List.Keynote} colm={12} tilt={false} className={'eventcard my-3 eventTitle'}/>
+        <Cards title={""} por={event_List.LectureSeries} colm={6} tilt={false} className={'eventcard my-3 eventTitle'}/>
         <Cards title={"Poster Presentation"} por={event_List.PosterPresentation} rulebookbtn={true} btn={currentUser.currentUser!=null?true:false} tilt={false} colm={6} className={'eventcard my-3 eventTitle'}/>
         <Cards title={"Events/Competitions"} por={event_List.EventsCompetitions} rulebookbtn={true} btn={currentUser.currentUser!=null?true:false} tilt={false} colm={6} className={'eventcard my-3 eventTitle'}/>
         <Cards title={"Informals"} por={event_List.Informals}rulebookbtn={true} tilt={false} colm={12} className={'eventcard my-3 eventTitle'}/>

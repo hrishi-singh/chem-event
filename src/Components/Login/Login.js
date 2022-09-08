@@ -55,9 +55,9 @@ function Login () {
   return (
     <div className='loginbody'>
       <div className="loginform">
-    <p className="title"><h3>Login</h3></p>
+    <h3 className="title">Login</h3>
 
-    <form className="login" id='formlogin' onSubmit={handleSubmit} autocomplete="off">
+    <form className="login" id='formlogin' onSubmit={handleSubmit} autoComplete="off">
 
     
       <input type="email" id='emailinput' placeholder="Email"{...register("email",{required: true})}/>
@@ -70,7 +70,6 @@ function Login () {
       <input type={"submit"}
         id='loginbtn' />
     </form>
-    {/* <Link to='/forgot-password' style={{color:'white'}}> Forgot password?</Link> */}
     <ForgotPwdPopup/>
       </div>
     
