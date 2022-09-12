@@ -1,4 +1,11 @@
+#eventsBody{
+    /* background: url('https://i.ibb.co/zhDdpf7/ezgif-com-gif-maker.gif'); */
+        background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.6)), url('https://i.ibb.co/sp7ZxdQ/ezgif-com-gif-maker-7.gif');
 
+        background-size: contain;
+        /* background-position: center; */
+        background-repeat: repeat-y;
+}
 
 #thumbnail {
 
@@ -17,7 +24,7 @@
 
 #thumbnail h1 {
     font-size: 3em;
-    color: purple;
+    color: #355764;
     z-index: 1;
 }
 #thumbnail h2{
@@ -39,7 +46,6 @@
 
 }
 .box {
-    /* background-color: rgba(0, 0, 0, 0.137); */
     position: relative;
     width: 350px;
     height: 100px;

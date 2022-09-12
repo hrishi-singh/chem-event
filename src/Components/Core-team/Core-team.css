@@ -12,7 +12,7 @@
     text-align: center;
     padding: 6px;
     border: 1px solid rgba(255,255,255,0.3);
-    /* background: rgba(255, 255, 255, 0.1); */
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0,0,0,0.2);
     backdrop-filter: blur(3 px);
@@ -31,7 +31,7 @@
 }
 
 .teamcard p{
-    color: #000;
+    color: #ffffff;
     font-size: 20px;
     margin: 10px auto;
     max-width: 335px;
@@ -45,7 +45,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background: url('https://i.ibb.co/sp7ZxdQ/ezgif-com-gif-maker-7.gif');
+    background: url('https://i.ibb.co/zhDdpf7/ezgif-com-gif-maker.gif');
+    background-position: center;
+    /* background: url('https://i.ibb.co/sp7ZxdQ/ezgif-com-gif-maker-7.gif'); */
     /* background: url('https://cdn.dribbble.com/userupload/2775721/file/original-e8c27e5d40d333d0c5c3b1d96597d08e.gif?compress=1&resize=1024x768'); */
     background-size: contain;
     background-repeat: repeat-y;

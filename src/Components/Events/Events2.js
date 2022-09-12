@@ -8,7 +8,7 @@ import { useAuth } from "../contexts/AuthContext";
 const Events2 = () => {
   const currentUser = useAuth();
   return (
-  <div>
+  <div id='eventsBody'>
      <section id="thumbnail">
             <div className="box">
                 <h1>Events</h1>
