@@ -42,13 +42,13 @@ function CollapsibleExample() {
           </Nav>
           <Nav>
 
-            {/* {currentUser.currentUser==null &&
+            {currentUser.currentUser==null &&
             <Nav.Link className="nav-link" href="/registration">Registration</Nav.Link>
             }
 
             {currentUser.currentUser==null &&
             <Nav.Link className="nav-link" href="/login">Login</Nav.Link>
-            } */}
+            }
 
 
 
