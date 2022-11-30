@@ -87,7 +87,9 @@
     border-radius: 0%;
 }
 .eventcard{
-    max-width:370px;
+    max-width:280px;
+    border: 0px;
+    /* box-shadow: 82px 293px grey inset; */
 }
 
 #eventTitle{
