@@ -16,12 +16,9 @@ const Slider1= (props) => {
           <h1>{props.EventName}</h1>
           <h5> Theme: Sustainable Chemical Engineering <br/> </h5>
           <h6> Event Date: <br/></h6>
-          {/* <h6> 14th January 2022<br/></h6> */}
        <h5>14th January 2023.<br/></h5>
-       {/* <h5>Registration is temporarily Unavailable</h5> */}
        {currentUser.currentUser!=null?"":<>
-       <h4>Free Registration for all.
-        </h4> 
+       <h4>Free Registration for all.</h4> 
         <Link id='Register-btn' to='/registration'>Register Now!</Link>
         <h6> Last date to register: <br/>
        <h4> 10th January 2023.</h4></h6> 
