@@ -1,11 +1,17 @@
 .sponsors_logo{
     max-height: 120px;
     padding: 20px;
+    display: flex;
+    justify-content: center;
 }
 .banner{
     width: 90vw;
+   
 }
 h4{
     display: flex;
     justify-content: center;
+}
+#sponsorcontainer{
+    height: 80vh;
 }
