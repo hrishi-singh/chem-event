@@ -58,17 +58,5 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  },
-  "description": "The Department of Chemical Engineering, IIT Jodhpur is delighted to organize ‘CHEM-E-SORPTION 2023’ with a theme of ‘Sustainable Chemical Engineering’.\r         Chem-E-Sorption is a unique amalgamation of intriguing competitions, invited lectures from academia and industry, panel discussions and other activities.\r         The core idea of this event is to provide a platform to the young talented students of chemical engineering and enthusiastic research scholars with the real\r         world rapidly ever-changing technologies to enhance their knowledge and comprehend advanced technologies in the domain of chemical and interdisciplinary\r         engineering.",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hrishi-singh/chem-event.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hrishi-singh/chem-event/issues"
-  },
-  "homepage": "https://github.com/hrishi-singh/chem-event#readme"
+  }
 }
