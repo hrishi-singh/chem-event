@@ -15,7 +15,7 @@
     
     "Keynote":[
         {
-            "img": "https://i.ibb.co/1XGwLvm/Whats-App-Image-2022-08-20-at-8-17-51-PM.jpg",
+            "img": "https://i.ibb.co/9rvVr8f/image.png",
             "Name": "Prof. V C Srivastava",
             "text":"Head of the Department of Chemical Engineering IIT Roorkee, ",
             "link": "https://ch.iitr.ac.in/~CH/vimalfch"
@@ -30,16 +30,16 @@
             "link": "https://www.che.iitb.ac.in/faculty/rahul-nabar"
         },
         {
-            "img": "https://i.ibb.co/N9k9XKq/Whats-App-Image-2022-08-20-at-8-18-38-PM.jpg",
+            "img": "https://i.ibb.co/S5xb4Rp/image.png",
             "Name": "Dr. Ankit Hanotia",
             "text":"IRS ONGC, Ahmedabad",
             "link": "https://www.linkedin.com/in/ankithanotia/?originalSubdomain=in"
         },
         {
-            "img": "https://i.ibb.co/N9k9XKq/Whats-App-Image-2022-08-20-at-8-18-38-PM.jpg",
+            "img": "https://i.ibb.co/ZK1n9y6/Diganta-Photo.jpg",
             "Name": "Dr. Diganta Sharma",
             "text":"Cairn refinery, Barmer",
-            "link": ""
+            "link": "__target"
         }
     ],
     "PosterPresentation":[

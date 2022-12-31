@@ -1,9 +1,9 @@
 #eventsBody{
     /* background: url('https://i.ibb.co/zhDdpf7/ezgif-com-gif-maker.gif'); */
-        background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.6)), url('https://i.ibb.co/sp7ZxdQ/ezgif-com-gif-maker-7.gif');
+        background: linear-gradient(rgba(0, 0, 0, 0.075), rgba(255, 255, 255, 0.6)), url('https://i.ibb.co/sp7ZxdQ/ezgif-com-gif-maker-7.gif');
 
-        background-size: contain;
-        /* background-position: center; */
+        background-size: cover;
+        background-position: center;
         background-repeat: repeat-y;
 }
 
@@ -14,7 +14,8 @@
     flex-direction: column;
 
     /* background-image: url('./banner_temp.png'); */
-    background-image: url('https://i.ibb.co/kS7jYQS/ezgif-com-gif-maker-8.gif');
+    /* background-image: url('https://i.ibb.co/kS7jYQS/ezgif-com-gif-maker-8.gif'); */
+    background-image: url('https://i.ibb.co/Z2GjwzH/original-6e25ea09489ff3156e8f71e80b6096c9-min.gif');
     background-size: cover;
     justify-content: center;
     align-items: center;
@@ -30,7 +31,12 @@
 #thumbnail h2{
     font-family: 'Bebas Neue',sans-serif;
     font-size: 4em;
+    color: aliceblue;
 }
+#thumbnail h3,.Events__instruction{
+    color: aliceblue;
+}
+
 #thumbnail a{
     /* height: 2em; */
     padding:12px 18px;
