@@ -16,9 +16,9 @@
     "Keynote":[
         {
             "img": "https://i.ibb.co/1XGwLvm/Whats-App-Image-2022-08-20-at-8-17-51-PM.jpg",
-            "Name": "Key Note Lecture",
-            "text":"",
-            "link": "link to their profile"
+            "Name": "Prof. V C Srivastava",
+            "text":"Head of the Department of Chemical Engineering IIT Roorkee, ",
+            "link": "https://ch.iitr.ac.in/~CH/vimalfch"
         }
      ],  
 
@@ -26,16 +26,27 @@
         {
             "img": "https://i.ibb.co/wB5WMsH/Prof-Rahul-Nabar.jpg",
             "Name": "Prof. Rahul Nabar",
-            "text":"Some current problems in the global chemical industry: thinking outside the box",
-            "link": "link to their profile"
+            "text":"Professor, Department of Chemical Engineering IIT Bombay",
+            "link": "https://www.che.iitb.ac.in/faculty/rahul-nabar"
+        },
+//        {
+//            "img": "https://i.ibb.co/N9k9XKq/Whats-App-Image-2022-08-20-at-8-18-38-PM.jpg",
+//            "Name": "Dr. Deepesh Patidar",
+//            "text":"Scientist, Defence Laboratory, DRDO, Jodhpur",
+//            "link": "link to their profile"
+//        }
+        {
+            "img": "https://i.ibb.co/N9k9XKq/Whats-App-Image-2022-08-20-at-8-18-38-PM.jpg",
+            "Name": "Dr. Ankit Hanotia",
+            "text":"IRS ONGC, Ahmedabad",
+            "link": "https://www.linkedin.com/in/ankithanotia/?originalSubdomain=in"
         },
         {
             "img": "https://i.ibb.co/N9k9XKq/Whats-App-Image-2022-08-20-at-8-18-38-PM.jpg",
-            "Name": "Dr. Deepesh Patidar",
-            "text":"Scientist, Defence Laboratory, DRDO, Jodhpur",
-            "link": "link to their profile"
+            "Name": "Dr. Diganta Sharma",
+            "text":"Cairn refinery, Barmer",
+            "link": ""
         }
-
     ],
     "PosterPresentation":[
         {
