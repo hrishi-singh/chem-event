@@ -1,7 +1,14 @@
 {
     "sponsors":[{
         "Name":"Hanna Instruments",
-        "logo":"https://i.ibb.co/xsgRZ6r/Hanna-Instruments-Blue.png"
+        "logo":"https://i.ibb.co/xsgRZ6r/Hanna-Instruments-Blue.png",
+        "Role":"Title Sponsor"
+    },
+    {
+        "Name":"Anton Paar",
+        "logo":"https://i.ibb.co/CmdxnDB/image.png",
+        "Role":"Associate sponsor"
+
     }
 ]
 

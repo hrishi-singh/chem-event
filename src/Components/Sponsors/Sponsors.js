@@ -10,14 +10,15 @@ const Sponsors = () => {
   return (
     <div className="container my-3" id="sponsorcontainer">
     <h1>Our Sponsors</h1>
-    <Row xs={1} md={3} className="g-4">
+    <Row xs={2} md={2} className="g-4">
       {sponsorList.sponsors.map((det) => (
         <Col>
-          <Card>
-            <Card.Img variant="top" src={det.logo} />
+          <Card className='sponsporCards'>
+            <Card.Img variant="top" src={det.logo} height="120px"/>
             <Card.Body>
-              
             </Card.Body>
+            <h5>{det.Name}</h5>
+            <h6>{`(${det.Role})`}</h6>
           </Card>
         </Col>
       ))}
