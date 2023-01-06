@@ -1,15 +1,21 @@
 {
-    "sponsors":[{
-        "Name":"Hanna Instruments",
-        "logo":"https://i.ibb.co/xsgRZ6r/Hanna-Instruments-Blue.png",
-        "Role":"Title Sponsor"
-    },
+    "sponsors":[
     {
         "Name":"Anton Paar",
         "logo":"https://i.ibb.co/CmdxnDB/image.png",
         "Role":"Associate sponsor"
+    },
+    {
+        "Name":"Hanna Instruments",
+        "logo":"https://i.ibb.co/xsgRZ6r/Hanna-Instruments-Blue.png",
+        "Role":"Expo Sponsor"
+    },
+    {
+        "Name":"Specialities Inst",
+        "logo":"",
+        "Role":"Stationary sponsor"
 
-    }
+    }                
 ]
 
 }
