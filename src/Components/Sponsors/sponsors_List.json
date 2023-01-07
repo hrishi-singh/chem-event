@@ -5,17 +5,17 @@
         "logo":"https://i.ibb.co/CmdxnDB/image.png",
         "Role":"Associate sponsor"
     },
+      {
+        "Name":"Specialise Instruments",
+        "logo":"https://i.ibb.co/hHKBN0C/SIMC-LOGO.png",
+        "Role":"Stationary sponsor"
+    } ,
     {
         "Name":"Hanna Instruments",
         "logo":"https://i.ibb.co/xsgRZ6r/Hanna-Instruments-Blue.png",
         "Role":"Expo Sponsor"
-    },
-    {
-        "Name":"Specialities Inst",
-        "logo":"",
-        "Role":"Stationary sponsor"
-
-    }                
+    }
+                
 ]
 
 }

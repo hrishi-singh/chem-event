@@ -10,7 +10,7 @@ const Sponsors = () => {
   return (
     <div className="container my-3" id="sponsorcontainer">
     <h1>Our Sponsors</h1>
-    <Row xs={2} md={2} className="g-4">
+    <Row xs={1} md={3} className="g-4">
       {sponsorList.sponsors.map((det) => (
         <Col>
           <Card className='sponsporCards'>
