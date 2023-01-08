@@ -20,8 +20,8 @@ const Slider1= (props) => {
        {currentUser.currentUser!=null?"":<>
        <h4>Free Registration for all.</h4> 
         <Link id='Register-btn' to='/registration'>Register Now!</Link>
-        <h6> Last date to register: <br/>
-       <h4> 10th January 2023.</h4></h6> 
+        <h6>Registration Open till: <br/>
+       <h4> 10th January 2023, 5:00 p.m.</h4></h6> 
         </>} 
         </div>      
     </section>
