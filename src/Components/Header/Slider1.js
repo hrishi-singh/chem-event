@@ -17,12 +17,12 @@ const Slider1= (props) => {
           <h5> Theme: Sustainable Chemical Engineering <br/> </h5>
           <h6> Event Date: <br/></h6>
        <h5>14th January 2023.<br/></h5>
-       {currentUser.currentUser!=null?"":<>
+       {/* {currentUser.currentUser!=null?"":<>
        <h4>Free Registration for all.</h4> 
         <Link id='Register-btn' to='/registration'>Register Now!</Link>
         <h6>Registration Open till: <br/>
        <h4> 10th January 2023, 5:00 p.m.</h4></h6> 
-        </>} 
+        </>}  */}
         </div>      
     </section>
   )
