@@ -17,6 +17,8 @@ const Slider1= (props) => {
           <h5> Theme: Sustainable Chemical Engineering <br/> </h5>
           <h6> Event Date: <br/></h6>
        <h5>14th January 2023.<br/></h5>
+       <h6> Venue: <br/></h6>
+       <h4>IIT Jodhpur Club</h4>
        {/* {currentUser.currentUser!=null?"":<>
        <h4>Free Registration for all.</h4> 
         <Link id='Register-btn' to='/registration'>Register Now!</Link>
