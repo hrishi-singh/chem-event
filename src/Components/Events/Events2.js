@@ -74,17 +74,9 @@ const Events2 = () => {
           colm={6}
           className={"eventcard my-3 eventTitle"}
         />
-        <Cards
-          title={"Informals"}
-          por={event_List.Informals}
-          rulebookbtn={true}
-          tilt={false}
-          colm={12}
-          className={"eventcard my-3 eventTitle"}
-        />
       </section>
     </div>
-  );
-};
+  )
+}
 
-export default Events2;
+export default Events2
