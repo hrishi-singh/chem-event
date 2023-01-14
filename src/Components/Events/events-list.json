@@ -80,18 +80,7 @@
             "prize":"5K"
         }
         
-    ],
-    
-    "Informals":[
-        {
-            "img": "https://i.ibb.co/fkYDcBH/Chem-dept-2.gif",
-            "Name": "Treasure Hunt",
-            "text":"A Fun and informal event to conclude the day.",
-            "rulebook": "https://docs.google.com/document/d/1szlbgIw7MSxBPuWWREVP564zKBgKC0_qZt5UwUxhTEE/edit?usp=sharing",
-            "prize":"2K"
-            
-        }
-        
     ]
+   
 
 }
