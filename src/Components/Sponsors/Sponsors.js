@@ -23,7 +23,6 @@ const Sponsors = () => {
       ))}
     </Row>
     </div>
-    // <ComingSoon title={`Sponsors`}/>
   )
 }
 export default Sponsors

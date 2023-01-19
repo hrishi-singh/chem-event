@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { useAuth } from "../contexts/AuthContext";
 function CollapsibleExample() {
   const currentUser = useAuth();
-  const [error,setError] = useState("")
+  const [setError] = useState("")
   const {  logout } = useAuth()  
   const history = useNavigate()  
    
@@ -39,12 +39,9 @@ function CollapsibleExample() {
             <Nav.Link className="nav-link" href="/events">Events</Nav.Link>
             <Nav.Link className="nav-link" href="/sponsors">Our Sponsors</Nav.Link>
             <Nav.Link className="nav-link" href="/team">Core Team</Nav.Link>
+            <Nav.Link className="nav-link" href="/gallery">Gallery</Nav.Link>
           </Nav>
           <Nav>
-
-            {/* {currentUser.currentUser==null &&
-            <Nav.Link className="nav-link" href="/registration">Registration</Nav.Link>
-            } */}
 
             {currentUser.currentUser==null &&
             <Nav.Link className="nav-link" href="/login">Login</Nav.Link>

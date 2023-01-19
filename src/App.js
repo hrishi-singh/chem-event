@@ -8,6 +8,7 @@ import Sponsors from './Components/Sponsors/Sponsors';
 import Team from './Components/Core-team/Core-team';
 import Footer from './Components/Footer/Footer';
 import Profile from './Components/Profile/Profile';
+import Gallery from './Components/Header/Gallery';
 import {
   BrowserRouter as Router,
   Routes,
@@ -27,6 +28,7 @@ function App() {
         <Route path="/events" element={<Events/>}></Route>
         <Route path="/sponsors" element={<Sponsors/>}></Route>
         <Route path="/team" element={<Team/>}></Route>
+        <Route path="/gallery" element={<Gallery/>}></Route>
         <Route path="/registration" element={<Registration/>}></Route>
         <Route path="/login" element={<Login/>}></Route>
         <Route path="/profile" element={<Profile/>}></Route>

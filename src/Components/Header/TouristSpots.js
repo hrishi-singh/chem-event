@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import tp from './touristspots.json';
 import './TouristSpots.css';
 import "slick-carousel/slick/slick.css";
@@ -77,9 +77,7 @@ function TouristSpots() {
               <div className='spotSlide'>
                 <img src={det.img} alt={det.Name} key={det.img} />
                 {det.name}
-
               </div>
-
             </>
           );
         })}
