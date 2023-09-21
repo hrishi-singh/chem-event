@@ -91,7 +91,7 @@ const RegistrationV1 = () => {
     < >
   <div className="regbody">
   <div className="regcotainer">
-    <div className="regtitle">Registration</div>
+    <div className="regtitle">Registration <br/> Registration Closed </div>
     <div className="regcontent">
       <form action="#" onSubmit={handleSubmit}>
         <div className="user-details">
