@@ -1,9 +1,7 @@
 # Chem-E-sorption  IITJ Website
 
 <picture>
- <source media="(prefers-color-scheme: dark)" srcset="YOUR-DARKMODE-IMAGE">
- <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
- <img src="https://i.ibb.co/TMf5G9X/ss-1.png" alt="Chem-e-sorption Website Snippet" >
+ <img src="https://raw.githubusercontent.com/hrishi-singh/chem-event/master/ss_1.png" alt="Chem-e-sorption Website Snippet">
 </picture>
  The Department of Chemical Engineering, IIT Jodhpur is delighted to organize ‘CHEM-E-SORPTION 2022’ with a theme of ‘Sustainable Chemical Engineering’.
         Chem-E-Sorption is a unique amalgamation of intriguing competitions, invited lectures from academia and industry, panel discussions and other activities.
